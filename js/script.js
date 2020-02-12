@@ -131,7 +131,7 @@ var searchFunc = function (path, search_id, content_id) {
               var match_content = content.substr(start, end);
               keywords.forEach(function (keyword) {
                 var regS = new RegExp(keyword, 'gi');
-                match_content = match_content.replace(regS, '<em class="search-result-keyword">' + keyword + '</em>');
+                match_content = match_content.replace(regS, '<em class="search-result-keyword">$&</em>');
               });
               str += '<p class="search-result-content">' + match_content + '...</p>';
             }

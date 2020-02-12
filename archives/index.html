@@ -10,7 +10,7 @@
   
   <title>Archive | Kode</title>
 
-  <link rel="shortcut icon" href="/images/kode.png">
+  <link rel="shortcut icon" href="/images/favicon.png">
   <link rel="alternate" href="/atom.xml" title="Kode">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Kode">
@@ -32,7 +32,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Kode">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="apple-touch-icon" href="/images/kode.png">
+  <link rel="apple-touch-icon" href="/images/favicon.png">
 
   
 
@@ -51,6 +51,9 @@
 <link rel="stylesheet" href="/css/mdui.css">
 <link rel="stylesheet" href="/css/style.css">
 
+  
+<link rel="stylesheet" href="/custom.css">
+
 <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Kode" type="application/atom+xml">
 </head>
 <body class="mdui-appbar-with-toolbar mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink">
@@ -66,10 +69,8 @@
 </header>
 <div class="mdui-dialog" id="search">
   
-    <div class="search-form">
-      <input type="search" class="search-form-input" placeholder="Enter the key words">
-    </div>
-    <div class="search-result" data-resource="/search.xml"></div>
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="请输入关键字"><input type="hidden" name="sitesearch" value="https://kodestudio.github.io"></form>
+    <div class="search-result"></div>
   
 </div>
   <aside id="sidebar" class="mdui-drawer mdui-drawer-full-height">
@@ -140,9 +141,9 @@
 
   <div class="mdui-list" mdui-collapse="{accordion: true}">
     
-      <a href="/tags" class="mdui-list-item mdui-ripple">Tags</a>
+      <a href="/tagcloud" class="mdui-list-item mdui-ripple">标签云</a>
     
-      <a href="/gallery" class="mdui-list-item mdui-ripple">Gallery</a>
+      <a href="/gallery" class="mdui-list-item mdui-ripple">画廊</a>
     
     <div class="mdui-collapse-item">
       <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
@@ -151,8 +152,8 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-          <a href="https://github.com" target="_blank" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme-accent" style="justify-content: center;">Github</a>
         
+          <a href="javascript:;" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme" style="justify-content: center;">No Links</a>
         
       </div>
     </div>
@@ -163,7 +164,8 @@
   <article class="mdui-card mdui-m-b-5 mdui-hoverable">
     <a href="/2020/02/12/hello-world/">
       <header class="mdui-card-media mdui-ripple">
-        <img src="/images/random/material-3.png" style="max-height: 240px;">
+        
+        <img src="/images/random/material-5.png" style="max-height: 240px;">
         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary">
             <div class="mdui-card-primary-title">Hello World</div>
@@ -201,7 +203,7 @@
     
   </div>
   <div class="mdui-p-y-1 mdui-text-center">
-    Copyright &copy; 2019 - 2020 Kode<br>
+    Copyright &copy; 2020 Kode<br>
     Powered by <a href="https://hexo.io/" target="_blank" class="mdui-text-color-theme-accent">Hexo</a>
     
   </div>
@@ -211,6 +213,9 @@
   
 <script src="/js/mdui.js"></script>
 <script src="/js/script.js"></script>
+
+  
+<script src="/custom.js"></script>
 
 </body>
 </html>

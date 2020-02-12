@@ -367,6 +367,17 @@ img.avatar-animation:hover {
 
 #paginator .spacer {
   flex-grow: 1;
+  text-align: center;
+}
+
+#paginator .spacer:before {
+  content: '~';
+}
+
+/* Comment Style */
+#comment {
+  position: relative;
+  z-index: 0;
 }
 
 /* Search Style */
@@ -496,6 +507,17 @@ img.avatar-animation:hover {
 .toc-link:hover,
 .toc-link:focus {
   color: #9c27b0;
+}
+
+.toc-number {
+  display: none;
+}
+
+.toc-text {
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /* Typo Hack */
