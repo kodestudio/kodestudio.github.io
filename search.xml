@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>hello</title>
-      <link href="/vi/hello/"/>
-      <url>/vi/hello/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>hello</title>
+    <url>/vi/hello/</url>
+    <content><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p>
+]]></content>
+  </entry>
 </search>
