@@ -2,12 +2,12 @@
 <search>
   <entry>
     <title>Config Kode SDK</title>
-    <url>/docs/config/</url>
-    <content><![CDATA[]]></content>
+    <url>/config/</url>
+    <content><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
   </entry>
   <entry>
     <title>Install Kode in Windows, Linux and Mac OS</title>
-    <url>/docs/install/</url>
+    <url>/install/</url>
     <content><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
       <categories>
         <category>Install</category>
