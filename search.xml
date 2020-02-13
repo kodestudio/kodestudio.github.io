@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>cai-dat</title>
-      <link href="/vi/cai-dat/"/>
-      <url>/vi/cai-dat/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Cài đặt </tag>
-            
-            <tag> Cơ bản </tag>
-            
-            <tag> Bắt đầu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>install</title>
-      <link href="/en/install/"/>
-      <url>/en/install/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Install </tag>
-            
-            <tag> Get Started </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>install</title>
+    <url>/vi/install/</url>
+    <content><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+  </entry>
 </search>

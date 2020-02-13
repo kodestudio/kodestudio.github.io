@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kode</title>
   
-  
+  <subtitle>SDK for Pascal</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kodestudio.github.io/"/>
-  <updated>2020-02-13T07:38:53.405Z</updated>
+  <updated>2020-02-13T07:48:14.551Z</updated>
   <id>https://kodestudio.github.io/</id>
   
   <author>
@@ -17,39 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>cai-dat</title>
-    <link href="https://kodestudio.github.io/vi/cai-dat/"/>
-    <id>https://kodestudio.github.io/vi/cai-dat/</id>
-    <published>2020-02-13T07:37:47.000Z</published>
-    <updated>2020-02-13T07:38:53.405Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css&quot;&gt;
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Cài đặt" scheme="https://kodestudio.github.io/tags/Cai-dat/"/>
-    
-      <category term="Cơ bản" scheme="https://kodestudio.github.io/tags/Co-ban/"/>
-    
-      <category term="Bắt đầu" scheme="https://kodestudio.github.io/tags/Bat-dau/"/>
-    
-  </entry>
-  
-  <entry>
     <title>install</title>
-    <link href="https://kodestudio.github.io/en/install/"/>
-    <id>https://kodestudio.github.io/en/install/</id>
-    <published>2020-02-13T07:37:26.000Z</published>
-    <updated>2020-02-13T07:38:39.665Z</updated>
+    <link href="https://kodestudio.github.io/vi/install/"/>
+    <id>https://kodestudio.github.io/vi/install/</id>
+    <published>2020-02-13T07:48:14.000Z</published>
+    <updated>2020-02-13T07:48:14.551Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
@@ -63,10 +35,6 @@
     </summary>
     
     
-    
-      <category term="Install" scheme="https://kodestudio.github.io/tags/Install/"/>
-    
-      <category term="Get Started" scheme="https://kodestudio.github.io/tags/Get-Started/"/>
     
   </entry>
   
