@@ -4,39 +4,19 @@
   
     
     <entry>
-      <title>about</title>
-      <link href="/2020/02/12/about/"/>
-      <url>/2020/02/12/about/</url>
+      <title>install</title>
+      <link href="/install/"/>
+      <url>/install/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>beta</title>
-      <link href="/2020/02/12/beta/"/>
-      <url>/2020/02/12/beta/</url>
-      
-        <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><a href="https://flutter.dev" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png" alt="Flutter logo"></a></h1><p><a href="https://cirrus-ci.com/github/flutter/flutter/master" target="_blank" rel="noopener"><img src="https://api.cirrus-ci.com/github/flutter/flutter.svg" alt="Build Status - Cirrus"></a><br><a href="https://gitter.im/flutter/flutter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank" rel="noopener"><img src="https://badges.gitter.im/flutter/flutter.svg" alt="Gitter Channel"></a><br><a href="https://twitter.com/intent/follow?screen_name=flutterdev" target="_blank" rel="noopener"><img src="https://img.shields.io/twitter/follow/flutterdev.svg?style=social&label=Follow" alt="Twitter handle"></a></p><p>Flutter is Google’s SDK for crafting beautiful, fast user experiences for<br>mobile, web and desktop from a single codebase. Flutter works with existing<br>code, is used by developers and organizations around the world, and is free<br>and open source.</p><h2 id="Documentation"><a href="#Documentation" class="headerlink" title="Documentation"></a>Documentation</h2><ul><li><a href="https://flutter.dev/get-started/" target="_blank" rel="noopener">Install Flutter</a></li><li><a href="https://flutter.dev/docs" target="_blank" rel="noopener">Flutter documentation</a></li><li><a href="https://github.com/flutter/flutter/wiki" target="_blank" rel="noopener">Development wiki</a></li><li><a href="https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing to Flutter</a></li></ul><p>For announcements about new releases and breaking changes, follow the<br><a href="https://groups.google.com/forum/#!forum/flutter-announce" target="_blank" rel="noopener">flutter-announce@googlegroups.com</a><br>mailing list.</p><h2 id="About-Flutter"><a href="#About-Flutter" class="headerlink" title="About Flutter"></a>About Flutter</h2><p>We think Flutter will help you create beautiful, fast apps, with a productive,<br>extensible and open development model.</p><h3 id="Beautiful-user-experiences"><a href="#Beautiful-user-experiences" class="headerlink" title="Beautiful user experiences"></a>Beautiful user experiences</h3><p>We want to enable designers to deliver their full creative vision without being<br>forced to water it down due to limitations of the underlying framework.<br>Flutter’s <a href="https://flutter.dev/docs/resources/inside-flutter" target="_blank" rel="noopener">layered architecture</a> gives you control over every pixel on the<br>screen, and its powerful compositing capabilities let you overlay and animate<br>graphics, video, text and controls without limitation. Flutter includes a full<br><a href="https://flutter.dev/widgets/" target="_blank" rel="noopener">set of widgets</a> that deliver pixel-perfect experiences on both<br>iOS and Android.</p><p><img src="https://github.com/flutter/website/blob/master/src/images/homepage/reflectly-hero-600px.png" alt="Reflectly hero image"></p><h3 id="Fast-results"><a href="#Fast-results" class="headerlink" title="Fast results"></a>Fast results</h3><p>Flutter is fast. It’s powered by the same hardware-accelerated <a href="https://skia.org/" target="_blank" rel="noopener">Skia</a> 2D<br>graphics library that underpins Chrome and Android. We architected Flutter to<br>support glitch-free, jank-free graphics at the native speed of your device.<br>Flutter code is powered by the world-class <a href="https://dart.dev/" target="_blank" rel="noopener">Dart platform</a>, which enables<br>compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well<br>as JavaScript for the web and Intel x64 for desktop devices.</p><p><img src="https://github.com/flutter/website/blob/master/src/images/homepage/dart-diagram-small.png" alt="Dart platform diagram"></p><h3 id="Productive-development"><a href="#Productive-development" class="headerlink" title="Productive development"></a>Productive development</h3><p>Flutter offers stateful hot reload, allowing you to make changes to your code<br>and see the results instantly without restarting your app or losing its state.</p><p><a href="https://flutter.dev/docs/development/tools/hot-reload" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/tools/android-studio/hot-reload.gif" alt="Hot reload animation"></a></p><h3 id="Extensible-and-open-model"><a href="#Extensible-and-open-model" class="headerlink" title="Extensible and open model"></a>Extensible and open model</h3><p>Flutter works with any development tool (or none at all), but includes editor<br>plug-ins for both <a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter" target="_blank" rel="noopener">Visual Studio Code</a> and <a href="https://plugins.jetbrains.com/plugin/9212-flutter" target="_blank" rel="noopener">IntelliJ / Android Studio</a>. Flutter<br>provides <a href="https://pub.dev/flutter" target="_blank" rel="noopener">thousands of packages</a> to speed your development,<br>regardless of your target platform. And accessing other native code is easy,<br>with support for both <a href="https://flutter.dev/docs/development/platform-integration/c-interop" target="_blank" rel="noopener">FFI</a> and <a href="https://flutter.dev/docs/development/platform-integration/platform-channels" target="_blank" rel="noopener">platform-specific APIs</a>.</p><p>Flutter is a fully open source project, and we welcome contributions.<br>Information on how to get started can be found at our<br><a href="CONTRIBUTING.md">contributor guide</a>.</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/02/12/hello-world/"/>
-      <url>/2020/02/12/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
+        <tags>
+            
+            <tag> docs </tag>
+            
+        </tags>
       
     </entry>
     
