@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kodestudio.github.io/"/>
-  <updated>2020-02-13T08:28:31.860Z</updated>
+  <updated>2020-02-13T08:42:41.986Z</updated>
   <id>https://kodestudio.github.io/</id>
   
   <author>
@@ -17,19 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Cài đặt Kode SDK</title>
-    <link href="https://kodestudio.github.io/vi/install/"/>
-    <id>https://kodestudio.github.io/vi/install/</id>
-    <published>2020-02-13T08:18:22.000Z</published>
-    <updated>2020-02-13T08:28:31.860Z</updated>
+    <title>hello</title>
+    <link href="https://kodestudio.github.io/vi/hello/"/>
+    <id>https://kodestudio.github.io/vi/hello/</id>
+    <published>2020-02-13T08:40:59.000Z</published>
+    <updated>2020-02-13T08:42:41.986Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    <content type="html"><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
     <summary type="html">
     
       
       
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css&quot;&gt;
+        &lt;p&gt;&lt;img src=&quot;/vi/hello/kodeban.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.cs
       
     
     </summary>
