@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hello</title>
-    <url>/vi/hello/</url>
-    <content><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    <title>Cài đặt Kode SDK</title>
+    <url>/vi/install/</url>
+    <content><![CDATA[<p>Xin chào các bạn. Trong bài viết này mình sẽ hướng dẫn các bạn cài đặt Kode SDK.</p>
+]]></content>
+      <tags>
+        <tag>Install</tag>
+        <tag>Basic</tag>
+      </tags>
   </entry>
 </search>

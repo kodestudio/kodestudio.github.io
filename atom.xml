@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kodestudio.github.io/"/>
-  <updated>2020-02-13T08:58:04.719Z</updated>
+  <updated>2020-02-13T11:33:18.776Z</updated>
   <id>https://kodestudio.github.io/</id>
   
   <author>
@@ -17,25 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello</title>
-    <link href="https://kodestudio.github.io/vi/hello/"/>
-    <id>https://kodestudio.github.io/vi/hello/</id>
-    <published>2020-02-13T08:40:59.000Z</published>
-    <updated>2020-02-13T08:58:04.719Z</updated>
+    <title>Cài đặt Kode SDK</title>
+    <link href="https://kodestudio.github.io/vi/install/"/>
+    <id>https://kodestudio.github.io/vi/install/</id>
+    <published>2020-02-13T11:32:06.000Z</published>
+    <updated>2020-02-13T11:33:18.776Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+    <content type="html"><![CDATA[<p>Xin chào các bạn. Trong bài viết này mình sẽ hướng dẫn các bạn cài đặt Kode SDK.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;/vi/hello/kodeban.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.cs
+        &lt;p&gt;Xin chào các bạn. Trong bài viết này mình sẽ hướng dẫn các bạn cài đặt Kode SDK.&lt;/p&gt;
+
       
     
     </summary>
     
     
+    
+      <category term="Install" scheme="https://kodestudio.github.io/tags/Install/"/>
+    
+      <category term="Basic" scheme="https://kodestudio.github.io/tags/Basic/"/>
     
   </entry>
   
