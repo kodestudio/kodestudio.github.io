@@ -4,6 +4,6 @@
     <title>hello</title>
     <url>/vi/hello/</url>
     <content><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p>
-]]></content>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
   </entry>
 </search>

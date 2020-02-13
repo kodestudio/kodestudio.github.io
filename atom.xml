@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kodestudio.github.io/"/>
-  <updated>2020-02-13T08:50:48.375Z</updated>
+  <updated>2020-02-13T08:58:04.719Z</updated>
   <id>https://kodestudio.github.io/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="https://kodestudio.github.io/vi/hello/"/>
     <id>https://kodestudio.github.io/vi/hello/</id>
     <published>2020-02-13T08:40:59.000Z</published>
-    <updated>2020-02-13T08:50:48.375Z</updated>
+    <updated>2020-02-13T08:58:04.719Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="/vi/hello/kodeban.png" alt=""></p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;&lt;img src=&quot;/vi/hello/kodeban.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.cs
       
     
     </summary>
