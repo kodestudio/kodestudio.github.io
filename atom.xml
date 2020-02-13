@@ -3,11 +3,11 @@
   <title>Kode</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/docs/atom.xml" rel="self"/>
   
-  <link href="https://kodestudio.github.io/"/>
-  <updated>2020-02-13T02:05:16.730Z</updated>
-  <id>https://kodestudio.github.io/</id>
+  <link href="https://kodestudio.github.io/docs/"/>
+  <updated>2020-02-13T07:14:09.605Z</updated>
+  <id>https://kodestudio.github.io/docs/</id>
   
   <author>
     <name>Kode</name>
@@ -17,9 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Config Kode SDK</title>
+    <link href="https://kodestudio.github.io/docs/config/"/>
+    <id>https://kodestudio.github.io/docs/config/</id>
+    <published>2020-02-13T07:13:52.000Z</published>
+    <updated>2020-02-13T07:14:09.605Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Install Kode in Windows, Linux and Mac OS</title>
-    <link href="https://kodestudio.github.io/install/"/>
-    <id>https://kodestudio.github.io/install/</id>
+    <link href="https://kodestudio.github.io/docs/install/"/>
+    <id>https://kodestudio.github.io/docs/install/</id>
     <published>2020-02-13T00:57:07.000Z</published>
     <updated>2020-02-13T02:05:16.730Z</updated>
     
@@ -35,10 +50,10 @@
     </summary>
     
     
-      <category term="Install" scheme="https://kodestudio.github.io/categories/Install/"/>
+      <category term="Install" scheme="https://kodestudio.github.io/docs/categories/Install/"/>
     
     
-      <category term="Documents" scheme="https://kodestudio.github.io/tags/Documents/"/>
+      <category term="Documents" scheme="https://kodestudio.github.io/docs/tags/Documents/"/>
     
   </entry>
   
