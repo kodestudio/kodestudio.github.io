@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kodestudio.github.io/"/>
-  <updated>2020-02-13T07:48:14.551Z</updated>
+  <updated>2020-02-13T08:28:31.860Z</updated>
   <id>https://kodestudio.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>install</title>
+    <title>Cài đặt Kode SDK</title>
     <link href="https://kodestudio.github.io/vi/install/"/>
     <id>https://kodestudio.github.io/vi/install/</id>
-    <published>2020-02-13T07:48:14.000Z</published>
-    <updated>2020-02-13T07:48:14.551Z</updated>
+    <published>2020-02-13T08:18:22.000Z</published>
+    <updated>2020-02-13T08:28:31.860Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
