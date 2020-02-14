@@ -1,39 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>thanks</title>
-    <url>/docs/vi/thanks/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Thanks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>why_pascal</title>
-    <url>/docs/vi/why-pascal/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Basic</tag>
-        <tag>Pascal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>design</title>
-    <url>/docs/vi/design/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Basic</tag>
-        <tag>Design</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cài đặt Kode SDK</title>
-    <url>/docs/vi/install/</url>
-    <content><![CDATA[<p><img src="/docs/vi/install/kodeban.png" alt=""></p>
-<h1 id="Kode-se-ra-mat-vao-15-06-2020"><a href="#Kode-se-ra-mat-vao-15-06-2020" class="headerlink" title="Kode sẽ ra mắt vào 15/06/2020"></a>Kode sẽ ra mắt vào 15/06/2020</h1>]]></content>
-      <tags>
-        <tag>Install</tag>
-        <tag>Basic</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Lời cảm ơn</title>
+      <link href="/docs/vi/thanks/"/>
+      <url>/docs/vi/thanks/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Thanks </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Tại sao Kode lại dùng Pascal</title>
+      <link href="/docs/vi/why-pascal/"/>
+      <url>/docs/vi/why-pascal/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Basic </tag>
+            
+            <tag> Pascal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Thiết kế giao diện ứng dụng</title>
+      <link href="/docs/vi/design/"/>
+      <url>/docs/vi/design/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Basic </tag>
+            
+            <tag> Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Cài đặt Kode SDK</title>
+      <link href="/docs/vi/install/"/>
+      <url>/docs/vi/install/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/docs/vi/install/kodeban.png" alt=""></p><h1 id="Kode-se-ra-mat-vao-15-06-2020"><a href="#Kode-se-ra-mat-vao-15-06-2020" class="headerlink" title="Kode sẽ ra mắt vào 15/06/2020"></a>Kode sẽ ra mắt vào 15/06/2020</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Install </tag>
+            
+            <tag> Basic </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>

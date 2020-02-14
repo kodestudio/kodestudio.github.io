@@ -6,7 +6,7 @@
   <link href="/docs/atom.xml" rel="self"/>
   
   <link href="https://kodestudio.github.io/docs/"/>
-  <updated>2020-02-14T14:19:35.156Z</updated>
+  <updated>2020-02-14T14:23:38.730Z</updated>
   <id>https://kodestudio.github.io/docs/</id>
   
   <author>
@@ -17,13 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>thanks</title>
+    <title>Lời cảm ơn</title>
     <link href="https://kodestudio.github.io/docs/vi/thanks/"/>
     <id>https://kodestudio.github.io/docs/vi/thanks/</id>
     <published>2020-02-14T14:16:15.000Z</published>
-    <updated>2020-02-14T14:19:35.156Z</updated>
+    <updated>2020-02-14T14:23:38.730Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css&quot;&gt;
+      
     
     </summary>
     
@@ -34,13 +41,20 @@
   </entry>
   
   <entry>
-    <title>why_pascal</title>
+    <title>Tại sao Kode lại dùng Pascal</title>
     <link href="https://kodestudio.github.io/docs/vi/why-pascal/"/>
     <id>https://kodestudio.github.io/docs/vi/why-pascal/</id>
     <published>2020-02-14T14:15:52.000Z</published>
-    <updated>2020-02-14T14:19:50.013Z</updated>
+    <updated>2020-02-14T14:23:32.545Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css&quot;&gt;
+      
     
     </summary>
     
@@ -53,13 +67,20 @@
   </entry>
   
   <entry>
-    <title>design</title>
+    <title>Thiết kế giao diện ứng dụng</title>
     <link href="https://kodestudio.github.io/docs/vi/design/"/>
     <id>https://kodestudio.github.io/docs/vi/design/</id>
     <published>2020-02-14T14:15:26.000Z</published>
-    <updated>2020-02-14T14:19:59.214Z</updated>
+    <updated>2020-02-14T14:23:17.594Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css&quot;&gt;
+      
     
     </summary>
     
