@@ -39,7 +39,7 @@
   <entry>
     <title>Cài đặt Kode SDK</title>
     <url>/docs/vi/install/</url>
-    <content><![CDATA[<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/kodelogo.png" alt="alt"><br><strong>KodePas là mô trường phát triển phần mềm cho ngôn ngữ lập trình Pascal</strong></p>
+    <content><![CDATA[<p><img src="/docs/vi/install/kodelogo.png" alt="alt"><br><strong>KodePas là mô trường phát triển phần mềm cho ngôn ngữ lập trình Pascal</strong></p>
 <p><strong>Nếu đây là lần đầu bạn sử dụng KodePas, xin hãy đọc kĩ các bước để cài đặt không bị lỗi.</strong></p>
 <h1 id="Cai-dat-KodePas-tren-Windows"><a href="#Cai-dat-KodePas-tren-Windows" class="headerlink" title="Cài đặt KodePas trên Windows"></a>Cài đặt KodePas trên Windows</h1><h2 id="Yeu-cau-he-thong"><a href="#Yeu-cau-he-thong" class="headerlink" title="Yêu cầu hệ thống"></a>Yêu cầu hệ thống</h2><ul>
 <li><p>Ổ đĩa còn trống 500MB</p>
@@ -58,13 +58,13 @@
 </ul>
 <h3 id="Buoc-3-Them-KodePas-vao-bien-moi-truong-Buoc-quan-trong"><a href="#Buoc-3-Them-KodePas-vao-bien-moi-truong-Buoc-quan-trong" class="headerlink" title="Bước 3: Thêm KodePas vào biến môi trường (Bước quan trọng)"></a>Bước 3: Thêm KodePas vào biến môi trường (Bước quan trọng)</h3><p>Bạn truy cập vào Control Panel trên PC của bạn và tìm vào đường dẫn</p>
 <p><code>Control Panel\System and Security\System</code></p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/controlpanel.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/controlpanel.PNG" alt="alt"></p>
 <p>Sau đó chọn vào Mục ** Advanced System Settings **</p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/systempro.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/systempro.PNG" alt="alt"></p>
 <p>Tại đây chọn Enviroment Variables</p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/vari.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/vari.PNG" alt="alt"></p>
 <p>Bạn nhấn đúp chuột vào mục PATH</p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/addpath.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/addpath.PNG" alt="alt"></p>
 <p>Rồi chọn New và nhập đường dẫn vào:</p>
 <p><code>C:\KodePas\bin</code></p>
 <p>Sau đó nhấn OK.</p>
@@ -108,20 +108,20 @@
 <p>Tại đây bạn sửa các đường dẫn lại sao cho đúng với nơi bạn lưu trữ KodePas. Gợi ý là:</p>
 <p><code>&lt;LazarusDirectory Value=&quot;C:\KodePas&quot;&gt;</code></p>
 <h3 id="Buoc-5-Thu-KodePas-da-hoat-dong-chua"><a href="#Buoc-5-Thu-KodePas-da-hoat-dong-chua" class="headerlink" title="Bước 5: Thử KodePas đã hoạt động chưa"></a>Bước 5: Thử KodePas đã hoạt động chưa</h3><p>Bạn dùng tổ hợp phím Win + R để mở bản chọn RUN. Sau khi bản chọn hiện lên bạn gõ <code>cmd</code> và nhấn Enter.</p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/run.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/run.PNG" alt="alt"></p>
 <p>Bạn nhập lệnh sau vào Command Prompt</p>
 <p><code>kode --version</code></p>
 <p>Nếu Command Prompt trả lại kết quả như sau thì bạn đã cài đặt thành công</p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/complete.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/complete.PNG" alt="alt"></p>
 <h3 id="Buoc-6-Chay-thu-chuong-trinh-mau"><a href="#Buoc-6-Chay-thu-chuong-trinh-mau" class="headerlink" title="Bước 6: Chạy thử chương trình mẫu"></a>Bước 6: Chạy thử chương trình mẫu</h3><p>Bạn truy cập vào đường dẫn lưu trữ KodePas và vào mục project và mở Command Prompt ở đó</p>
 <p><code>C:\KodePas\project</code></p>
 <p>Sau đó gõ lệnh sau:</p>
 <p><code>kode --build-all project.kode</code></p>
 <p>Nếu bạn nhận được kết quả</p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/build.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/build.PNG" alt="alt"></p>
 <p>thì tiếp tục gõ lệnh</p>
 <p><code>project</code></p>
-<p><img src="https://github.com/kodestudio/kodepas/blob/master/images/project.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install/project.PNG" alt="alt"></p>
 <p>** Nếu bạn nhận được kết quả như trên thì xin chúc mừng !. Bạn đã cài đặt thành công KodePas</p>
 ]]></content>
       <categories>
