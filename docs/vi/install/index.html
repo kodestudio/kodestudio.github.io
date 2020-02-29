@@ -29,7 +29,7 @@
 <meta property="og:image" content="https://kodelang.dev/docs/vi/install/build.PNG">
 <meta property="og:image" content="https://kodelang.dev/docs/vi/install/project.PNG">
 <meta property="article:published_time" content="2020-02-13T11:32:06.000Z">
-<meta property="article:modified_time" content="2020-02-29T09:52:13.408Z">
+<meta property="article:modified_time" content="2020-02-29T10:00:36.558Z">
 <meta property="article:author" content="Kode Team">
 <meta property="article:tag" content="Install">
 <meta property="article:tag" content="Basic">
@@ -53,7 +53,7 @@
 
   
     <meta property="article:published_time" content="Thu Feb 13 2020 18:32:06 GMT+0700">
-    <meta property="article:modified_time" content="Sat Feb 29 2020 16:52:13 GMT+0700">
+    <meta property="article:modified_time" content="Sat Feb 29 2020 17:00:36 GMT+0700">
   
 
   
@@ -184,7 +184,7 @@
   <style>#main article .mdui-card-content .center-block{display:block!important;margin-right:auto!important;margin-left:auto!important}</style>
   <article class="mdui-card mdui-m-b-5">
     <header class="mdui-card-media">
-      <img src="/images/random/material-6.png" style="max-height: 240px;">
+      <img src="/images/random/material-9.png" style="max-height: 240px;">
       <div class="mdui-card-media-covered">
         <div class="mdui-card-primary">
           <div class="mdui-card-primary-title">Cài đặt Kode SDK</div>
@@ -267,39 +267,8 @@
 <p>Bạn truy cập vào đường dẫn chứa tệp quy định của KodePas, mặc định là:</p>
 <p><code>C:\KodePas\bin\config\environmentoptions.xml</code> </p>
 <p>Nội dung tệp có thể là:</p>
-<p><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;CONFIG&gt;
-  &lt;EnvironmentOptions&gt;
-    &lt;Debugger Class=&quot;TGDBMIDebugger&quot;&gt;
-      &lt;ClassTGDBMIDebugger&gt;
-        &lt;Config ConfigClass=&quot;TGDBMIDebugger&quot; DebuggerFilename=&quot;$Path($(CompPath))\gdb.exe&quot; Active=&quot;True&quot; UID=&quot;{A0E40DA3-4A0D-4A25-9EFD-71E15D55EEB0}&quot;/&gt;
-      &lt;/ClassTGDBMIDebugger&gt;
-      &lt;WatchesDlg ColumnNameWidth=&quot;-1&quot; ColumnValueWidth=&quot;-1&quot;/&gt;
-      &lt;CallStackDlg ViewCount=&quot;0&quot;/&gt;
-    &lt;/Debugger&gt;
-    &lt;DebuggerFilename Value=&quot;$Path($(CompPath))\gdb.exe&quot;/&gt;
-    &lt;Version Value=&quot;110&quot; Lazarus=&quot;1.0&quot;/&gt;
-    &lt;FormEditor&gt;
-      &lt;Rubberband&gt;
-        &lt;SelectionColor Value=&quot;8388608&quot;/&gt;
-        &lt;CreationColor Value=&quot;128&quot;/&gt;
-      &lt;/Rubberband&gt;
-    &lt;/FormEditor&gt;
-    &lt;Recent AlreadyPopulated=&quot;True&quot;/&gt;
-    &lt;ExternalTools Version=&quot;3&quot;/&gt;
-    &lt;LazarusDirectory Value=&quot;C:\KodePas&quot;&gt;
-    &lt;/LazarusDirectory&gt;
-    &lt;CompilerFilename Value=&quot;fpc.exe&quot;&gt;
-    &lt;/CompilerFilename&gt;
-    &lt;MakeFilename&gt;
-    &lt;/MakeFilename&gt;
-    &lt;TestBuildDirectory Value=&quot;C:\Users\ADMINS~1\AppData\Local\Temp\&quot;&gt;
-    &lt;/TestBuildDirectory&gt;
-  &lt;/EnvironmentOptions&gt;
-  &lt;ObjectInspectorOptions ShowHints=&quot;False&quot; InfoBoxHeight=&quot;50&quot;&gt;
-    &lt;Version Value=&quot;3&quot;/&gt;
-  &lt;/ObjectInspectorOptions&gt;
-&lt;/CONFIG&gt;</code></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">CONFIG</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">EnvironmentOptions</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Debugger</span> <span class="attr">Class</span>=<span class="string">"TGDBMIDebugger"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">ClassTGDBMIDebugger</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Config</span> <span class="attr">ConfigClass</span>=<span class="string">"TGDBMIDebugger"</span> <span class="attr">DebuggerFilename</span>=<span class="string">"$Path($(CompPath))\gdb.exe"</span> <span class="attr">Active</span>=<span class="string">"True"</span> <span class="attr">UID</span>=<span class="string">"&#123;A0E40DA3-4A0D-4A25-9EFD-71E15D55EEB0&#125;"</span>/&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">ClassTGDBMIDebugger</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">WatchesDlg</span> <span class="attr">ColumnNameWidth</span>=<span class="string">"-1"</span> <span class="attr">ColumnValueWidth</span>=<span class="string">"-1"</span>/&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">CallStackDlg</span> <span class="attr">ViewCount</span>=<span class="string">"0"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">Debugger</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">DebuggerFilename</span> <span class="attr">Value</span>=<span class="string">"$Path($(CompPath))\gdb.exe"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Version</span> <span class="attr">Value</span>=<span class="string">"110"</span> <span class="attr">Lazarus</span>=<span class="string">"1.0"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">FormEditor</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">Rubberband</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">SelectionColor</span> <span class="attr">Value</span>=<span class="string">"8388608"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">CreationColor</span> <span class="attr">Value</span>=<span class="string">"128"</span>/&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">Rubberband</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">FormEditor</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Recent</span> <span class="attr">AlreadyPopulated</span>=<span class="string">"True"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">ExternalTools</span> <span class="attr">Version</span>=<span class="string">"3"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">LazarusDirectory</span> <span class="attr">Value</span>=<span class="string">"C:\KodePas"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">LazarusDirectory</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">CompilerFilename</span> <span class="attr">Value</span>=<span class="string">"fpc.exe"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">CompilerFilename</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">MakeFilename</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">MakeFilename</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">TestBuildDirectory</span> <span class="attr">Value</span>=<span class="string">"C:\Users\ADMINS~1\AppData\Local\Temp\"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">TestBuildDirectory</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">EnvironmentOptions</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ObjectInspectorOptions</span> <span class="attr">ShowHints</span>=<span class="string">"False"</span> <span class="attr">InfoBoxHeight</span>=<span class="string">"50"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Version</span> <span class="attr">Value</span>=<span class="string">"3"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ObjectInspectorOptions</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">CONFIG</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <p>Tại đây bạn sửa các đường dẫn lại sao cho đúng với nơi bạn lưu trữ KodePas. Gợi ý là:</p>
 <p><code>&lt;LazarusDirectory Value=&quot;C:\KodePas&quot;&gt;</code></p>
 <h3 id="Buoc-5-Thu-KodePas-da-hoat-dong-chua"><a href="#Buoc-5-Thu-KodePas-da-hoat-dong-chua" class="headerlink" title="Bước 5: Thử KodePas đã hoạt động chưa"></a>Bước 5: Thử KodePas đã hoạt động chưa</h3><p>Bạn dùng tổ hợp phím Win + R để mở bản chọn RUN. Sau khi bản chọn hiện lên bạn gõ <code>cmd</code> và nhấn Enter.</p>
