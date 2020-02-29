@@ -5,9 +5,9 @@
   <subtitle>SDK for Pascal</subtitle>
   <link href="/docs/atom.xml" rel="self"/>
   
-  <link href="https://kodestudio.github.io/docs/"/>
+  <link href="https://kodelang.dev/docs/"/>
   <updated>2020-02-14T14:23:38.730Z</updated>
-  <id>https://kodestudio.github.io/docs/</id>
+  <id>https://kodelang.dev/docs/</id>
   
   <author>
     <name>Kode Team</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Lời cảm ơn</title>
-    <link href="https://kodestudio.github.io/docs/vi/thanks/"/>
-    <id>https://kodestudio.github.io/docs/vi/thanks/</id>
+    <link href="https://kodelang.dev/docs/vi/thanks/"/>
+    <id>https://kodelang.dev/docs/vi/thanks/</id>
     <published>2020-02-14T14:16:15.000Z</published>
     <updated>2020-02-14T14:23:38.730Z</updated>
     
@@ -36,14 +36,14 @@
     
     
     
-      <category term="Thanks" scheme="https://kodestudio.github.io/docs/tags/Thanks/"/>
+      <category term="Thanks" scheme="https://kodelang.dev/docs/tags/Thanks/"/>
     
   </entry>
   
   <entry>
     <title>Tại sao Kode lại dùng Pascal</title>
-    <link href="https://kodestudio.github.io/docs/vi/why-pascal/"/>
-    <id>https://kodestudio.github.io/docs/vi/why-pascal/</id>
+    <link href="https://kodelang.dev/docs/vi/why-pascal/"/>
+    <id>https://kodelang.dev/docs/vi/why-pascal/</id>
     <published>2020-02-14T14:15:52.000Z</published>
     <updated>2020-02-15T14:54:59.859Z</updated>
     
@@ -59,21 +59,21 @@
     </summary>
     
     
-      <category term="Docs" scheme="https://kodestudio.github.io/docs/categories/Docs/"/>
+      <category term="Docs" scheme="https://kodelang.dev/docs/categories/Docs/"/>
     
-      <category term="Review" scheme="https://kodestudio.github.io/docs/categories/Docs/Review/"/>
+      <category term="Review" scheme="https://kodelang.dev/docs/categories/Docs/Review/"/>
     
     
-      <category term="Basic" scheme="https://kodestudio.github.io/docs/tags/Basic/"/>
+      <category term="Basic" scheme="https://kodelang.dev/docs/tags/Basic/"/>
     
-      <category term="Pascal" scheme="https://kodestudio.github.io/docs/tags/Pascal/"/>
+      <category term="Pascal" scheme="https://kodelang.dev/docs/tags/Pascal/"/>
     
   </entry>
   
   <entry>
     <title>Thiết kế giao diện ứng dụng</title>
-    <link href="https://kodestudio.github.io/docs/vi/design/"/>
-    <id>https://kodestudio.github.io/docs/vi/design/</id>
+    <link href="https://kodelang.dev/docs/vi/design/"/>
+    <id>https://kodelang.dev/docs/vi/design/</id>
     <published>2020-02-14T14:15:26.000Z</published>
     <updated>2020-02-15T14:29:11.919Z</updated>
     
@@ -82,21 +82,21 @@
     </summary>
     
     
-      <category term="Docs" scheme="https://kodestudio.github.io/docs/categories/Docs/"/>
+      <category term="Docs" scheme="https://kodelang.dev/docs/categories/Docs/"/>
     
-      <category term="Design" scheme="https://kodestudio.github.io/docs/categories/Docs/Design/"/>
+      <category term="Design" scheme="https://kodelang.dev/docs/categories/Docs/Design/"/>
     
     
-      <category term="Basic" scheme="https://kodestudio.github.io/docs/tags/Basic/"/>
+      <category term="Basic" scheme="https://kodelang.dev/docs/tags/Basic/"/>
     
-      <category term="Design" scheme="https://kodestudio.github.io/docs/tags/Design/"/>
+      <category term="Design" scheme="https://kodelang.dev/docs/tags/Design/"/>
     
   </entry>
   
   <entry>
     <title>Cài đặt Kode SDK</title>
-    <link href="https://kodestudio.github.io/docs/vi/install/"/>
-    <id>https://kodestudio.github.io/docs/vi/install/</id>
+    <link href="https://kodelang.dev/docs/vi/install/"/>
+    <id>https://kodelang.dev/docs/vi/install/</id>
     <published>2020-02-13T11:32:06.000Z</published>
     <updated>2020-02-29T09:52:13.408Z</updated>
     
@@ -112,12 +112,12 @@
     </summary>
     
     
-      <category term="Docs" scheme="https://kodestudio.github.io/docs/categories/Docs/"/>
+      <category term="Docs" scheme="https://kodelang.dev/docs/categories/Docs/"/>
     
     
-      <category term="Install" scheme="https://kodestudio.github.io/docs/tags/Install/"/>
+      <category term="Install" scheme="https://kodelang.dev/docs/tags/Install/"/>
     
-      <category term="Basic" scheme="https://kodestudio.github.io/docs/tags/Basic/"/>
+      <category term="Basic" scheme="https://kodelang.dev/docs/tags/Basic/"/>
     
   </entry>
   
