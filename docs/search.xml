@@ -160,6 +160,8 @@
 </li>
 <li><p>Đã cài đặt FPC (Free Pascal Compile). Nếu chưa bạn có thể tải về tại <a href="https://www.freepascal.org/download.html" target="_blank" rel="noopener">đây</a>. Bạn nhớ chọn kĩ hệ điều hành và loại vi xử lí máy tính bạn nhằm tránh bị lỗi nhé. Ưu tiên bản FPC mới nhất và KodePas hiện đang tương thích với bản FPC 3.0.4</p>
 </li>
+<li><p>Cài đặt Git. Nếu chưa cài bạn có thể tải về tại <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">đây</a></p>
+</li>
 </ul>
 <h2 id="Cai-dat"><a href="#Cai-dat" class="headerlink" title="Cài đặt"></a>Cài đặt</h2><h3 id="Buoc-1-Tai-KodePas-ve-may-tinh"><a href="#Buoc-1-Tai-KodePas-ve-may-tinh" class="headerlink" title="Bước 1: Tải KodePas về máy tính"></a>Bước 1: Tải KodePas về máy tính</h3><p>Bạn tải về file kodepas.zip từ GitHub của KodePas tại <a href="https://github.com/kodestudio/kodepas/archive/master.zip" target="_blank" rel="noopener">đây</a></p>
 <p>Trong trường hợp bạn muốn tải trực tiếp mã nguồn thì dùng Git và gõ lệnh sau:</p>
