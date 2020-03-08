@@ -104,48 +104,11 @@
 <p>Bạn có thể Download toàn bộ mã nguồn tại <a href="https://bit.ly/2Ia2SGU" target="_blank" rel="noopener">đây</a></p>
 ]]></content>
       <categories>
-        <category>Docs</category>
-        <category>Samples</category>
+        <category>KodePas</category>
       </categories>
       <tags>
-        <tag>Docs</tag>
-        <tag>Tutorial</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Lời cảm ơn</title>
-    <url>/docs/vi/thanks/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Thanks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tại sao Kode lại dùng Pascal</title>
-    <url>/docs/vi/why-pascal/</url>
-    <content><![CDATA[<h1 id="Loi-noi-dau"><a href="#Loi-noi-dau" class="headerlink" title="Lời nói đầu"></a>Lời nói đầu</h1><p>Rất nhiều bạn cứ hỏi tôi, tại sao bạn lại chọn Pascal để phát triển Kode hay ngược lại<br>tại sao Kode lại hỗ trợ Pascal??? Vâng đều có lí do cả đấy, trong bài viết này tôi sẽ làm sáng tỏ những thắc mắt của các bạn.</p>
-<h1 id="Pascal-trong-qua-khu-va-nhung-huyen-thoai"><a href="#Pascal-trong-qua-khu-va-nhung-huyen-thoai" class="headerlink" title="Pascal trong quá khứ và những huyền thoại"></a>Pascal trong quá khứ và những huyền thoại</h1><h2 id="Nguon-goc"><a href="#Nguon-goc" class="headerlink" title="Nguồn gốc"></a>Nguồn gốc</h2><p>Pascal là một ngôn ngữ lập trình cho máy tính thuộc dạng mệnh lệnh và thủ tục, được Niklaus Wirth phát triển vào năm 1970. Pascal là ngôn ngữ lập trình đặc biệt thích hợp cho kiểu lập trình cấu trúc &amp; cấu trúc dữ liệu, và được đặt theo tên của nhà toán học, triết gia và nhà vật lí người Pháp, Blaise Pascal.</p>
-]]></content>
-      <categories>
-        <category>Docs</category>
-        <category>Review</category>
-      </categories>
-      <tags>
-        <tag>Basic</tag>
-        <tag>Pascal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Thiết kế giao diện ứng dụng</title>
-    <url>/docs/vi/design/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Docs</category>
-        <category>Design</category>
-      </categories>
-      <tags>
-        <tag>Basic</tag>
-        <tag>Design</tag>
+        <tag>KodePas</tag>
+        <tag>Turtorial</tag>
       </tags>
   </entry>
   <entry>
@@ -208,7 +171,7 @@
 <p>** Nếu bạn nhận được kết quả như trên thì xin chúc mừng !. Bạn đã cài đặt thành công KodePas</p>
 ]]></content>
       <categories>
-        <category>Docs</category>
+        <category>KodePas</category>
       </categories>
       <tags>
         <tag>Install</tag>
