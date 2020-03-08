@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kode</title>
+  <title>Kode Docs</title>
   
-  <subtitle>SDK for Pascal</subtitle>
+  <subtitle>Document page</subtitle>
   <link href="/docs/atom.xml" rel="self"/>
   
   <link href="https://kodelang.dev/docs/"/>
