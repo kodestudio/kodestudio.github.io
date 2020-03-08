@@ -2,8 +2,8 @@
 <search>
   <entry>
     <title>Làm ứng dụng Calculator cùng KodePas</title>
-    <url>/docs/vi/make-calculator/</url>
-    <content><![CDATA[<p><img src="/docs/vi/make-calculator/calculator.PNG" alt="alt"></p>
+    <url>/docs/vi/make-calculator-with-kodepas/</url>
+    <content><![CDATA[<p><img src="/docs/vi/make-calculator-with-kodepas/calculator.PNG" alt="alt"></p>
 <h1 id="Loi-noi-dau"><a href="#Loi-noi-dau" class="headerlink" title="Lời nói đầu"></a>Lời nói đầu</h1><p>Calculator là một trong những ứng dụng rất cơ bản mà ai cũng biết. Trong bài viết hôm nay chúng ta sẽ cùng nhau thực hiện ứng dụng Calculator, nhưng đặc biệt ở chỗ nó được làm bằng KodePas.</p>
 <p>Nghe thú vị phải không nào, từ việc chỉ biết sử dụng thôi mà bạn đã có thể tự tay làm một cái để dùng và khoe với bạn bè của mình.</p>
 <h1 id="Muc-dich-cua-bai-biet-nay"><a href="#Muc-dich-cua-bai-biet-nay" class="headerlink" title="Mục đích của bài biết này"></a>Mục đích của bài biết này</h1><p>Nhằm hướng dẫn cho các bạn hiểu thêm về KodePas, cấu trúc của một phần mềm viết trên nền tảng KodePas và tạo thêm động lực học lập trình cho các bạn</p>
@@ -92,14 +92,14 @@
 <p><code>kode --build-all calculator.kode</code></p>
 <p>Sau đó chờ KodePas biên dịch và xây dựng nhé.</p>
 <p>Kết quả như sau:</p>
-<p><img src="/docs/vi/make-calculator/command.PNG" alt="alt"></p>
+<p><img src="/docs/vi/make-calculator-with-kodepas/command.PNG" alt="alt"></p>
 <p>Nếu có dòng sau xuất hiện</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">(<span class="number">9015</span>) Linking F:\Calculator\calculator.exe</span><br><span class="line">(<span class="number">1008</span>) <span class="number">230</span> lines compiled, <span class="number">4.0</span> sec, <span class="number">1379872</span> bytes code, <span class="number">108628</span> bytes data</span><br><span class="line">(<span class="number">1022</span>) <span class="number">20</span> hint(s) issued</span><br></pre></td></tr></table></figure>
 
 <p>Thì bạn đã dịch và xây dựng thành công rồi đấy. Giờ thì chỉ cần gõ</p>
 <p><code>calculator</code></p>
 <p>và tận hưởng thành quả thôi nào.</p>
-<p><img src="/docs/vi/make-calculator/comlete.PNG" alt="alt"></p>
+<p><img src="/docs/vi/make-calculator-with-kodepas/comlete.PNG" alt="alt"></p>
 <h1 id="Tong-ket"><a href="#Tong-ket" class="headerlink" title="Tổng kết"></a>Tổng kết</h1><p>Qua ví dụ lần này các bạn có thể hiểu được các thiết kế giao diện cũng như viết mã nguồn xử lí. Hẹn gặp các bạn trong bài viết tiếp theo nhé.</p>
 <p>Bạn có thể Download toàn bộ mã nguồn tại <a href="https://bit.ly/2Ia2SGU" target="_blank" rel="noopener">đây</a></p>
 ]]></content>
@@ -107,14 +107,14 @@
         <category>KodePas</category>
       </categories>
       <tags>
-        <tag>KodePas</tag>
-        <tag>Turtorial</tag>
+        <tag>Docs</tag>
+        <tag>Tutorial</tag>
       </tags>
   </entry>
   <entry>
-    <title>Cài đặt Kode SDK</title>
+    <title>Cài đặt KodePas</title>
     <url>/docs/vi/install-kodepas/</url>
-    <content><![CDATA[<p><img src="install/kodelogo.png" alt="alt"><br><strong>KodePas là mô trường phát triển phần mềm cho ngôn ngữ lập trình Pascal</strong></p>
+    <content><![CDATA[<p><img src="/docs/vi/install-kodepas/kodelogo.png" alt="alt"><br><strong>KodePas là mô trường phát triển phần mềm cho ngôn ngữ lập trình Pascal</strong></p>
 <p><strong>Nếu đây là lần đầu bạn sử dụng KodePas, xin hãy đọc kĩ các bước để cài đặt không bị lỗi.</strong></p>
 <h1 id="Cai-dat-KodePas-tren-Windows"><a href="#Cai-dat-KodePas-tren-Windows" class="headerlink" title="Cài đặt KodePas trên Windows"></a>Cài đặt KodePas trên Windows</h1><h2 id="Yeu-cau-he-thong"><a href="#Yeu-cau-he-thong" class="headerlink" title="Yêu cầu hệ thống"></a>Yêu cầu hệ thống</h2><ul>
 <li><p>Ổ đĩa còn trống 500MB</p>
@@ -135,13 +135,13 @@
 </ul>
 <h3 id="Buoc-3-Them-KodePas-vao-bien-moi-truong-Buoc-quan-trong"><a href="#Buoc-3-Them-KodePas-vao-bien-moi-truong-Buoc-quan-trong" class="headerlink" title="Bước 3: Thêm KodePas vào biến môi trường (Bước quan trọng)"></a>Bước 3: Thêm KodePas vào biến môi trường (Bước quan trọng)</h3><p>Bạn truy cập vào Control Panel trên PC của bạn và tìm vào đường dẫn</p>
 <p><code>Control Panel\System and Security\System</code></p>
-<p><img src="install/controlpanel.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/controlpanel.PNG" alt="alt"></p>
 <p>Sau đó chọn vào Mục ** Advanced System Settings **</p>
-<p><img src="install/systempro.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/systempro.PNG" alt="alt"></p>
 <p>Tại đây chọn Enviroment Variables</p>
-<p><img src="install/vari.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/vari.PNG" alt="alt"></p>
 <p>Bạn nhấn đúp chuột vào mục PATH</p>
-<p><img src="install/addpath.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/addpath.PNG" alt="alt"></p>
 <p>Rồi chọn New và nhập đường dẫn vào:</p>
 <p><code>C:\KodePas\bin</code></p>
 <p>Sau đó nhấn OK.</p>
@@ -154,20 +154,20 @@
 <p>Tại đây bạn sửa các đường dẫn lại sao cho đúng với nơi bạn lưu trữ KodePas. Gợi ý là:</p>
 <p><code>&lt;LazarusDirectory Value=&quot;C:\KodePas&quot;&gt;</code></p>
 <h3 id="Buoc-5-Thu-KodePas-da-hoat-dong-chua"><a href="#Buoc-5-Thu-KodePas-da-hoat-dong-chua" class="headerlink" title="Bước 5: Thử KodePas đã hoạt động chưa"></a>Bước 5: Thử KodePas đã hoạt động chưa</h3><p>Bạn dùng tổ hợp phím Win + R để mở bản chọn RUN. Sau khi bản chọn hiện lên bạn gõ <code>cmd</code> và nhấn Enter.</p>
-<p><img src="install/run.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/run.PNG" alt="alt"></p>
 <p>Bạn nhập lệnh sau vào Command Prompt</p>
 <p><code>kode --version</code></p>
 <p>Nếu Command Prompt trả lại kết quả như sau thì bạn đã cài đặt thành công</p>
-<p><img src="install/complete.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/complete.PNG" alt="alt"></p>
 <h3 id="Buoc-6-Chay-thu-chuong-trinh-mau"><a href="#Buoc-6-Chay-thu-chuong-trinh-mau" class="headerlink" title="Bước 6: Chạy thử chương trình mẫu"></a>Bước 6: Chạy thử chương trình mẫu</h3><p>Bạn truy cập vào đường dẫn lưu trữ KodePas và vào mục project và mở Command Prompt ở đó</p>
 <p><code>C:\KodePas\project</code></p>
 <p>Sau đó gõ lệnh sau:</p>
 <p><code>kode --build-all project.kode</code></p>
 <p>Nếu bạn nhận được kết quả</p>
-<p><img src="install/build.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/build.PNG" alt="alt"></p>
 <p>thì tiếp tục gõ lệnh</p>
 <p><code>project</code></p>
-<p><img src="install/project.PNG" alt="alt"></p>
+<p><img src="/docs/vi/install-kodepas/project.PNG" alt="alt"></p>
 <p>** Nếu bạn nhận được kết quả như trên thì xin chúc mừng !. Bạn đã cài đặt thành công KodePas</p>
 ]]></content>
       <categories>
