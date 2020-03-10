@@ -5,7 +5,7 @@
     background-image: url(../img/banner/bradcam_2.png);
 }
 .breadcam_bg_3{
-    background-image: url(../img/banner/bradcam_3.png);
+    background-image: url(../img/banner/bradcam3.png);
 }
 .breadcam_bg_4{
     background-image: url(../img/banner/bradcam_4.png);
@@ -14,31 +14,30 @@
     
     background-size: cover;
     background-position: bottom;
-    padding: 214px 0 92px 0;
+    padding: 214px 0;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    &::before{
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: #1F1F1F;
-        opacity: .5;
-        z-index: -1;
-        content: '';
-    }
+    // &::before{
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: #2C2C2C;
+    //     opacity: .6;
+    //     z-index: -1;
+    //     content: '';
+    // }
     @media #{$mobile_device} {
-        padding: 140px 0 90px 0;
+        padding: 120px 0;
     }
     h3{
-        font-size: 78px;
+        font-size: 60px;
         color: #fff;
-        font-weight: 400;
+        font-weight: 300;
         margin-bottom: 0;
         text-transform: capitalize;
-        font-family: $font2;
         @media #{$mobile_device} {
             font-size: 30px;
         }

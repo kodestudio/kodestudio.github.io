@@ -37,7 +37,7 @@ button {
 	outline: medium none;
 }
 h1,h2,h3,h4,h5{
-	font-family: $font2;
+	font-family: $font1;
 	color: #1F1F1F;
 }
 h1 a,
@@ -58,9 +58,9 @@ li {
 }
 p {
 	font-size: 16px;
-	font-weight:400;
+	font-weight:300;
 	line-height: 28px;
-	color: #727272;
+	color: #4D4D4D;
 	margin-bottom: 13px;
 	font-family: $font1;
 }
@@ -111,11 +111,8 @@ h3{
 	font-size: 24px;
 }
 
-.mb-70{
-	margin-bottom: 73px;
-	@media #{$mobile_device} {
-		margin-bottom: 30px;
-	}
+.mb-65{
+	margin-bottom: 67px;
 }
 // default-bg-color
 .black-bg{
@@ -148,13 +145,13 @@ h3{
 .overlay::before{
 	position: absolute;
 	content: "";
-	background-color: #1F1F1F;
+	background-color: #1f1f1f;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	opacity: .8;
+	opacity: .5;
 }
 
 .overlay2{
@@ -222,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 .owl-carousel {
 	.owl-nav div {
 		background: transparent;
-		height: 40px;
+		height: 50px;
 		left: 0px;
 		// opacity: 0;
 		position: absolute;
@@ -235,14 +232,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 		-o-transition: all 0.3s ease 0s;
 		transition: all 0.3s ease 0s;
 		// visibility: hidden;
-		width: 40px;
-		color: #FFFFFF;
+		width: 50px;
+		color: #fff;
 		background-color: transparent;
 		@include border-radius(50%);
 		left: 50px;
 		font-size: 15px;
-		line-height: 40px;
-		border: 1px solid #8E8B8B;
+		line-height: 50px;
+		border: 1px solid #787878;
 		left: 150px;
 	}
 	.owl-nav{
@@ -274,7 +271,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', end
 				visibility: visible;
 				&:hover{
 					color: #fff;
-					background: #615CFD;
+					background: #28AE61;
 					border: 1px solid transparent ;
 				}
 			}
