@@ -1,564 +1,692 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KodePas - Môi trường phát triển phần mềm của Pascal</title>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kode</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-</head>
+    <link rel="shortcut icon" href="/images/kode.png">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
 
-<body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-xl-3 col-lg-2">
-                            <div class="logo">
-                                <a href="https://kodelang.dev">
-                                    <img src="images/kode.png" width="40" height="40" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-7">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a class="active" href="https://kodelang.dev">Trang chủ</a></li>
-                                        <li><a href="https://kodelang.dev/product">Sản phẩm</a></li>
-                                        <li><a href="#">Tài liệu <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="https://kodelang.dev/docs/categories/KodePas/">KodePas</a></li>
-                                                <li><a href="https://kodelang.dev/docs/categories/KodeLang/">Kode Lang</a></li>
-                                                <li><a href="https://kodelang.dev/docs/categories/KodeStudio/">Kode Studio</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="https://kodelang.dev/community">Cộng đồng</a></li>
-                                        <li><a href="https://kodelang.dev/donate">Tài trợ</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <!--<div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                            <div class="Appointment">
-                                <div class="book_btn d-none d-lg-block">
-                                    <a  href="#">Download</a>
-                                </div>
-                            </div>
-                        </div>
-                    -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
+  <div class="site-wrap"  id="home-section">
 
-                </div>
-            </div>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Kode<span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <a href="#home-section" class="nav-link">Trang Chủ</a>
+                <a href="https://kodelang.dev/docs" class="nav-link">Tài liệu</a>
+                <!--<li><a href="#features-section" class="nav-link">Tính năng</a></li>-->
+                <a href="https://kodelang.dev/donate" class="nav-link">Tài trợ</a>
+                <a href="https://kodelang.dev/community" class="nav-link">Cộng đồng</a>
+                <!--<li class="has-children">
+                  <a href="#about-section" class="nav-link">Thêm</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#" target="_blank" class="nav-link"><span class="text-primary">Giới thiệu</span></a></li>
+                    <li><a href="#our-team-section" class="nav-link">Nhóm</a></li>
+                    <li><a href="#contact-section" class="nav-link">Liên hệ</a></li>
+                      </ul>
+                    </li>-->
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
     </header>
-    <!-- header-end -->
+    
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-7 col-md-6">
-                        <div class="slider_text ">
-                            <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s" >Kode <br>
-                            </h3>
-                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">Do lập trình viên, vì lập trình viên</p>
-                            <div class="video_service_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
-                                <a href="https://kodelang.dev/pro" class="boxed-btn3">Khám phá sản phẩm của chúng tôi</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-md-6">
-                        <div class="phone_thumb wow fadeInDown" data-wow-duration="1.1s" data-wow-delay=".2s">
-                            <img src="img/ilstrator/phone.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- slider_area_end -->
-    <!-- service_area  -->
-    <div class="service_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center  wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
-                        <h3>Kode với các dịch vụ <br>
-                                cho lập trình viên</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="single_service text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s">
-                        <div class="thumb">
-                                <img src="img/icon/2.svg" alt="">
-                        </div>
-                        <h3>Manage team in <br>
-                                One Place</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                        <div class="single_service text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s">
-                                <div class="thumb">
-                                        <img src="img/icon/1.svg" alt="">
-                                </div>
-                                <h3>All-powerful Pointing <br> 
-                                        has no control</h3>
-                            </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
 
-                            <div class="single_service text-center wow fadeInUp " data-wow-duration=".8s" data-wow-delay=".6s">
-                                <div class="thumb">
-                                        <img src="img/icon/3.svg" alt="">
-                                </div>
-                                <h3>Establish a solid online
-                                        presence</h3>
-                            </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ service_area  -->
-
-    <!-- service_area_2  -->
-    <div class="service_area_2">
-        <div class="container">
-            <div class="service_content_wrap">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="single_service  wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
-                            <span>01</span>
-                            <h3>Sign Up for free</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="single_service  wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s">
-                            <span>02</span>
-                            <h3>Make your profile</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4  wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s">
-                        <div class="single_service">
-                            <span>03</span>
-                            <h3>Enjoy the app</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ service_area_2  -->
-
-
-    <!-- about  -->
-    <div class="features_area ">
-        <div class="container">
-            <div class="features_main_wrap">
-                    <div class="row  align-items-center">
-                            <div class="col-xl-5 col-lg-5 col-md-6">
-                                <div class="features_info2">
-                                    <h3>Features that give
-                                        you real feel</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo
-                                        viverra maecenas.</p>
-                                    <div class="about_btn">
-                                        <a class="boxed-btn4" href="#">Download Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6 ">
-                                <div class="about_draw wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s">
-                                    <img src="img/ilstrator_img/draw.png" alt="">
-                                </div>
-                            </div>
-                    </div>
-            </div>
-            <div class="features_main_wrap">
-                    <div class="row  align-items-center">
-                            <div class="col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 col-md-6">
-                                <div class="about_image wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".3s">
-                                    <img src="img/ilstrator_img/phone.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="features_info">
-                                    <h3 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" >Easy setup and <br>
-                                            management</h3>
-                                    <p class="wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
-                                    <ul>
-                                        <li class="wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".5s" > Apartments frequently or motionless. </li>
-                                        <li class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".6s" > Duis aute irure dolor in reprehenderit in voluptate. </li>
-                                        <li class="wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".7s" > Voluptatem quia voluptas sit aspernatur.</li>
-                                    </ul>
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
             
-                                    <div class="about_btn wow fadeInUp" data-wow-duration=".10s" data-wow-delay=".8s" >
-                                        <a class="boxed-btn4" href="#">Download Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <img src="images/kodelogo.png" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1>KodePas</h1>
+                <p class="mb-5">Môi trường phát triển phần mềm miễn phí và mã nguồn mở dành cho Pascal.</p>
+                <div>
+                  <a href="https://kodelang.dev/docs/vi/install" class="btn btn-primary mr-2 mb-2">Nào cùng bắt đầu.</a>
+                </div>
+                <div>
+                  <a href="https://kodelang.dev/donate" class="btn btn-primary mr-2 mb-2">Tặng một ly Cafe cho Kode Team ❤</a>
+                </div>
+              </div>
+              
+              
             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Tính năng</h2>
+            <p class="lead">Kode là một môi trường phát triển phần mềm đa nền tảng dành cho ngôn ngữ lập trình Pascal.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+              </div>
+              <div>
+                <h3>Dễ học dễ dùng</h3>
+                <p>Kode sử dụng ngôn ngữ lập trình Pascal nên rất dễ học.Với ít các quy tắc trong quá trình phát triển, đảm bảo tính tự do cho các DEV</p>
+                <p><a href="https://kodelang.dev/docs/vi/pascal">Tìm hiểu thêm</a></p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+              </div>
+              <div>
+                <h3>Phong cách viết mã mới</h3>
+                <p>Kode mang đến cho bạn một trải nghiệm tuyệt vời khi viết mã. Bạn có thể sử dụng mọi Edit Text. Từ NotePad đến Visual Studio. Chỉ cần gõ lệnh "kode myapp" thì mọi thứ sẽ được xây dựng.</p>
+                <p><a href="#">Tìm hiểu thêm</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up"  data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+              </div>
+              <div>
+                <h3>Mã nguồn mở và miễn phí</h3>
+                <p>Thật tuyệt vời khi bạn có thể trải nghiệm một nền tảng phát triển phần mềm miễn phí. Không chỉ dừng lại ở việc sử dụng mà bạn còn có thể trực tiếp đóng góp vào quá trình hoàn thiện của dự án.</p>
+                <p><a href="#">Tìm hiểu thêm</a></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3>Đa nền tảng</h3>
+                <p>Kode hiện tại có thể hoạt động trên 3 hệ điều hành chính là: Windows, Linux và MacOS. Từ một mã nguồn nguy nhất mà Kode sẽ xây dựng ra các ứng dụng đa hệ điều hành. Mobile, Desktop App hoặc là Web</p>
+                <p><a href="#">Tìm hiểu thêm</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-sentiment_satisfied"></span></span>
+              </div>
+              <div>
+                <h3>Cộng đồng</h3>
+                <p>Chúng tôi sẽ cố gắng tạo những cộng đồng Koder rộng lớn để các bạn có thể tự do trao đổi hơn. Bạn có thể đặt những câu hỏi, tham gia trả lời và nhiều việc khác. Tất cả vì sự phát triển của Kode. Chúng tôi không giới hạn nền tảng cộng đồng. Có thể là Facebook, StackOverFlow, Twitter,... hoặc là hỏi trực tiếp với chúng tôi</p>
+                <p><a href="#">Tìm hiểu thêm</a></p>
+              </div>
+            </div>
+
+            
+          </div>
+          
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+              </div>
+              <div>
+                <h3>Tính mở cao</h3>
+                <p>Tính mở thể hiện thông qua hệ thống các Plugin, Extension về giao diện, hỗ trợ các bạn trong tương tác với máy chủ. Tất cả đều miễn phí, đều được phát triển từ cộng đồng.</p>
+                <p><a href="#">Tìm hiểu thêm</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+      <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/kodeconsolewin.PNG" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Tương tác bằng cơ chế lệnh</h2>
+            <p class="mb-4">Dùng Terminal và gõ những lệnh để tương tác với Kode. Nhanh và cực kì đơn giản. Nếu bạn chưa nhớ được lệnh thì đừng ngần ngại. Hãy gõ "kode help" nhé!!!</p>
+            
+            <div class="author-box" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/quocthinh.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Võ Quốc Thịnh</strong> <br>
+                  Co-Founder and Developer, Kode Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Xây dựng ứng dụng trên Terminal theo tôi nó có rất nhiều ưu điểm. Mặc dù vậy nhưng chúng tôi sẽ cố gắng đưa đến cho các bạn một IDE với đầy đủ các công cụ chứ không chỉ dừng lại ở việc dùng lệnh&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/build.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Giao diện trực quan, tự do thiết kế</h2>
+            <p class="mb-4">Giao diện của các ứng dụng được tạo bởi Kode tự động tương thích với hệ điều hành mà nó hoạt động. Trong hình là ứng dụng demo đang chạy trên Windows và Ubuntu và Android.</p>
+            
+            
+
+            <div class="author-box" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/namcc.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Phan Hoàng Nam</strong> <br>
+                  Leader Designer Team, Kode Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Ứng dụng được thiết kế rất đẹp, tự do. Trong tương lai không xa chúng tôi sẽ thêm nhiều phong cách thiết kế hơn. Trong đó có Material Design.&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/multi.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Đa nền tảng</h2>
+            <p class="mb-4">Chỉ một mã nguồn, bạn có thể xây dựng trên nhiều nền tảng khác nhau. Nổi bật là Desktop App, Mobile App, Web App,...</p>
+            
+           <!-- <div class="author-box" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/quocthinh.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Võ Quốc Thịnh</strong> <br>
+                  Founder and Developer, Kode Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Đa nền tảng là một tính năng quan trọng mà chúng tôi quan tâm phát triển. Đa nền tảng tiết kiệm thời gian viết mã cho từng hệ điều hành. Nâng cao hiệu suất làm việc.&rdquo;</blockquote>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/undraw_metrics_gtu7.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Cơ sở dữ liệu, API, Server Code, AI, ML và nhiều hơn thế nữa</h2>
+            <p class="mb-4">Không chỉ dừng lại ở việc phát triển Kode như một nền tảng thông thường. Chúng tôi luôn nổ lực nâng cao tính ứng dụng của Kode hơn nữa.</p>
+            
+            
+
+            <!--<div class="author-box" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Thành phần Kode</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="images/undraw_bookmarks_r6up.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold">Kode được phát triển từ</h2>
+            <p class="mb-4"></p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Trình biên dịch Free Pascal</li>
+              <li>Thư viện LCL</li>
+              <li>Lazarus</li>
+              <li>Thư viện GTK</li>
+              <li>Laz4Android</li>
+              <li>IntelliJ-based IDEs (Sẽ xuất hiện trong IDE)</li>
+            </ul>
+            <p><a href="https://kodelang.dev/docs/vi/thanks" class="btn btn-primary">Xem thêm</a></p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div class="site-section" id="our-team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Thành viên dự án</h2>
+            <p class="lead">Sau đây là danh sách các thành viên thường trực của dự án. Trong tương lai chúng tôi mong rằng danh sách này sẽ dài thêm</p>
+          </div>
+        </div>
+       
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/thinh.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.facebook.com/quocthinhvo.dev"><span class="icon-facebook"></span></a>
+                  <a href="https://www.twitter.com/quocthinhvo"><span class="icon-twitter"></span></a>
+                  <a href="https://www.instagram.com/quocthinhvo.dev"><span class="icon-instagram"></span></a>
+                  <a href="https://www.github.com/quocthinhvo"><span class="icon-github"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Võ Quốc Thịnh</h2>
+              <span class="sub-title d-block mb-3">Founder and Leader Kode Project, Developer Team</span>
+              <p>Sáng lập, quản lí dự án và lập trình viên trưởng.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/namccc.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Phan Hoàng Nam</h2>
+              <span class="sub-title d-block mb-3">Leader Designer</span>
+              <p>Đảm đương mọi việc liên quan đến thiết kế trong dự án</p>
+              
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/neonguyen.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.facebook.com/profile.php?id=100039568247672"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Nguyễn Quang Anh</h2>
+              <span class="sub-title d-block mb-3">Maketing</span>
+              <p>Maketing</p>
+            </div>
+          </div>
+
+         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/truongcc.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Nguyễn Đoan Trường</h2>
+              <span class="sub-title d-block mb-3">Editor</span>
+              <p></p>
+            </div>
+          </div>
+<!--
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/person_5.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+            
+              <h2 class="text-black h1">George Brook</h2>
+              <span class="sub-title d-block mb-3">Founder</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="person">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/person_6.jpg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Emely Hopson</h2>
+              <span class="sub-title d-block mb-3">Marketing</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
+              
+            </div>-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section testimonial-wrap bg-light" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Mục tiêu, lời nhắn gửi</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/quocthinh.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Tôi từng đọc nhiều bài báo viết về ngôn ngữ lập trình Pascal. Hầu hết trong số đó đều khẳng định rằng Pascal đã quá cũ kĩ và không phù hợp để giảng dạy nữa. Bản thân thôi là lập trình viên, ngôn ngữ đầu tiên tôi học là Pascal. Dưới góc nhìn của tôi, tôi thấy Pascal có rất nhiều ưu điểm. Dễ học, dễ đọc, gần ngôn ngữ tự nhiên. Pascal mã nguồn mở và rất mạnh. Tôi không muốn nhìn thấy một ngôn ngữ lập trình tốt như thế bị mai một. Điều đó thôi thúc tôi thực hiện dự án này. Thực hiện dự án này không vì tiền hay gì khác. Tất cả những gì tôi làm là vì sự phát triển của cộng đồng lập trình ở Việt Nam.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Võ Quốc Thịnh</strong></p>
+
+              
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+              
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/namcc.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+
+              <blockquote class="mb-3">
+                <p>&ldquo;Mặc dù không nằm trong chuyên môn của mình, nhưng tôi có thể nhận thấy được tiềm năng phát triển của dự án này. Để có được sự quan tâm của mọi người là điều không dễ, tôi tin rằng chủ nhân của dự án này sẽ làm được điều đó.&rdquo;</p>
+              </blockquote>
+              
+              <p class="text-black"><strong>Phan Hoàng Nam</strong></p>
+              
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/truongcc.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Bản thân tôi không nằm trong chuyên môn lập trình nhưng Kode vẫn tạo cho tôi sức hút. Hy vọng với kode chúng tôi có thể kết nối mọi người lại với nhau, cùng nhau làm việc dễ dàng. Từ đó khiến mọi người cảm thấy yêu thích công việc lập trình. Tôi rất thích thú với kode bởi khả năng tương tác, tuy bản thân tôi không nằm trong chuyên môn lập trình nhưng với các tài liệu đến từ Kode Docs, giờ đây tôi có thể tương tác nhanh chóng và dễ dàng bằng các lệnh.&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Nguyễn Đoan Trường</strong></p>
+
+              
+            </div>
+           
+          </div>
+
+          <div>
+            <div class="testimonial">
+              <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/kode.png" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+              </figure>
+              <blockquote class="mb-3">
+                <p>&ldquo;Kode Team xin hứa sẽ phát triển Kode ngày càng tốt hơn, phát triển hơn. Trong tương lai chắc chắn còn gặp nhiều khó khăn, nhưng bằng đam mê, chúng tôi sẽ cố gắng hết sức lực. Mong nhận được sự ủng hộ đến từ các bạn. Đội ngũ phát triển của chúng tôi hầu hết còn là học sinh cấp 3, vẫn còn chưa có nhiều kinh nghiệm, điều kiện kinh tế còn khó khăn. Chúng tôi rất hạnh phúc khi nhận được sự giúp đỡ từ các bạn. Cảm ơn vì tất cả <3&rdquo;</p>
+              </blockquote>
+              <p class="text-black"><strong>Kode Team</strong></p>
+
+              
+            </div>
+
+          </div>
+
         </div>
     </div>
-    <!--/ about  -->
-    <!-- testmonial_area  -->
-    <div class="testmonial_area">
-        <div class="container">
-            <div class="col-xl-12">
-                <div class="testmonial_active owl-carousel">
-                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
-                        <div class="section_title">
-                            <h3>Review from our <br>
-                                    regular users</h3>
-                        </div>
-                        <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
-                                tempor incididunt labore et dolore magna aliqua <br>
-                                quis ipsum suspendisse ultrices.
-                        </p>
-                        <div class="rating_author">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <span>
-                                    - Robert Smile
-                            </span>
-                        </div>
-                    </div>
-                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
-                        <div class="section_title">
-                            <h3>Review from our <br>
-                                    regular users</h3>
-                        </div>
-                        <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
-                                tempor incididunt labore et dolore magna aliqua <br>
-                                quis ipsum suspendisse ultrices.
-                        </p>
-                        <div class="rating_author">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <span>
-                                    - Robert Smile
-                            </span>
-                        </div>
-                    </div>
-                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
-                        <div class="section_title">
-                            <h3>Review from our <br>
-                                    regular users</h3>
-                        </div>
-                        <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
-                                tempor incididunt labore et dolore magna aliqua <br>
-                                quis ipsum suspendisse ultrices.
-                        </p>
-                        <div class="rating_author">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <span>
-                                    - Robert Smile
-                            </span>
-                        </div>
-                    </div>
-                    <div class="single_testmonial text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">
-                        <div class="section_title">
-                            <h3>Review from our <br>
-                                    regular users</h3>
-                        </div>
-                        <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
-                                tempor incididunt labore et dolore magna aliqua <br>
-                                quis ipsum suspendisse ultrices.
-                        </p>
-                        <div class="rating_author">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <span>
-                                    - Robert Smile
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <div class="site-section" id="blog-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Bài viết nổi bật</h2>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/install.png" alt="Image" class="img-fluid">
+              <h2><a href="https://kodelang.dev/docs/vi/install">Hướng dẫn cài đặt Kode</a></h2>
+              <div class="meta mb-4">Võ Quốc Thịnh <span class="mx-2">&bullet;</span>14/02/2020<span class="mx-2">&bullet;</span> <a href="#">Basic</a></div>
+              <p>Bài viết này sẽ hướng dẫn các bạn cách cài đặt Kode vào máy tính chỉ với vài bước đơn giản</p>
+              <p><a href="https://kodelang.dev/docs/vi/install">Đọc thêm...</a></p>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/code.png" alt="Image" class="img-fluid">
+              <h2><a href="https://kodelang.dev/docs/vi/why-pascal">Tại sao Kode dùng Pascal</a></h2>
+              <div class="meta mb-4">Võ Quốc Thịnh <span class="mx-2">&bullet;</span> 14/02/2020<span class="mx-2">&bullet;</span> <a href="#">Intro</a></div>
+              <p>Bài viết này sẽ nêu lên quan điểm của Quốc Thịnh về ngôn ngữ lập trình và trả lời câu hỏi vì sao Kode lại dùng Pascal</p>
+              <p><a href="https://kodelang.dev/docs/vi/why-pascal">Đọc thêm...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/design.png" alt="Image" class="img-fluid">
+              <h2><a href="https://kodelang.dev/docs/vi/design">Thiết kế giao diện ứng dụng</a></h2>
+              <div class="meta mb-4">Phan Hoàng Nam <span class="mx-2">&bullet;</span> 14/02/2020<span class="mx-2">&bullet;</span> <a href="#">Design</a></div>
+              <p>Làm sao biến ứng dụng của bạn trở nên ngầu hơn. Hãy đọc bài viết này...</p>
+              <p><a href="#">Đọc thêm...</a></p>
+            </div> 
+          </div>
+          
+        </div>
+      </div>
     </div>
-    <!--/ testmonial_area  -->
 
-    <!-- prising_area  -->
-    <div class="prising_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
-                        <h3>Unlock full Power</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit sed do eiusmod <br> tempor incididunt.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters align-items-center">
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".8s">
-                        <div class="prising_header d-flex justify-content-between">
-                            <h3>Basic</h3>
-                            <span>$06</span>
-                        </div>
-                        <ul>
-                            <li>One User</li>
-                            <li>1000 ui elements</li>
-                            <li>Webmail Support</li>
-                            <li>100GB Cloud Storage</li>
-                        </ul>
-                        <div class="prising_bottom">
-                            <a href="#" class="get_now prising_btn">Get Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s">
-                        <div class="prising_header d-flex justify-content-between pink_header">
-                            <h3>Team</h3>
-                            <span>$06</span>
-                        </div>
-                        <ul>
-                            <li>One User</li>
-                            <li>1000 ui elements</li>
-                            <li>Webmail Support</li>
-                            <li>100GB Cloud Storage</li>
-                            <li>Unlimited Users Limit</li>
-                        </ul>
-                        <div class="prising_bottom">
-                            <a href="#" class="get_now prising_btn">Get Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_prising text-center wow fadeInUp" data-wow-duration=".7s" data-wow-delay=".8s">
-                        <div class="prising_header d-flex justify-content-between green_header">
-                            <h3>Business</h3>
-                            <span>$06</span>
-                        </div>
-                        <ul>
-                            <li>One User</li>
-                            <li>1000 ui elements</li>
-                            <li>Webmail Support</li>
-                            <li>100GB Cloud Storage</li>
-                        </ul>
-                        <div class="prising_bottom">
-                            <a href="#" class="get_now prising_btn">Get Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="site-section bg-image2 overlay" id="contact-section" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-white">Liên hệ với chúng tôi</h2>
+          </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5">
+
+            
+
+            <form action="#" class="p-5 bg-white">
+              
+              <h2 class="h4 text-black mb-5">Biểu mẫu liên hệ</h2> 
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Họ</label>
+                  <input type="text" id="fname" class="form-control rounded-0">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Tên</label>
+                  <input type="text" id="lname" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input type="email" id="email" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Chủ đề</label> 
+                  <input type="subject" id="subject" class="form-control rounded-0">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Điều bạn nhắn gửi</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Bạn muốn nói gì với chúng tôi à. Đừng ngần ngại"></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <!--<input type="submit" value="Gửi" class="btn btn-primary mr-2 mb-2">-->
+                  <a href="mailto: kodestudio.dev@gmail.com" class="btn btn-primary mr-2 mb-2">Gửi</a>
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
+        
+        </div>
+        
+      </div>
     </div>
-    <!--/ prising_area  -->
 
-    <!-- productivity_area  -->
-    <div class="productivity_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-md-12 col-lg-6">
-                    <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">Get start from now <br>
-                            and increase productivity</h3>
-                </div>
-                <div class="col-xl-5 col-md-12 col-lg-6">
-                    <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                        <a href="#" >
-                                <img src="img/ilstrator/app.svg" alt="">
-                        </a>
-                        <a href="#">
-                                <img src="img/ilstrator/play.svg" alt="">
-                        </a>
-                        
-                    </div>
-                </div>
-            </div>
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="https://www.facebook.com/kodestudio.page" class="p-3"><span class="icon-facebook"></span></a>
+              <a href="https://www.instagram.com/kodestudio.page" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="https://www.github.com/kodestudio" class="p-3"><span class="icon-github"></span></a>
+              <a href="https://www.youtube.com/channel/UCNE3g4pFx40HJrnBoHzgJ8A" class="p-3"><span class="icon-youtube"></span></a>
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://kodelang.dev" target="_blank" >Kode</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--/ productivity_area  -->
+  </div> <!-- .site-wrap -->
 
-    <!-- footer start -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="img/logo.png" alt="">
-                                </a>
-                            </div>
-                            <p>
-                                Firmament morning sixth subdue darkness
-                                creeping gathered divide.
-                            </p>
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 
-                        </div>
-                    </div>
-                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Services
-                            </h3>
-                            <ul>
-                                <li><a href="#">Team management</a></li>
-                                <li><a href="#">Collaboration</a></li>
-                                <li><a href="#">Todo</a></li>
-                                <li><a href="#">Events</a></li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Useful Links
-                            </h3>
-                            <ul>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Downloads
-                            </h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        Download from Apple Store
-
-                                    </a>
-                                </li>
-                                <li><a href="#">
-                                        Download from Play Store
-                                    </a>
-                                </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/ footer end  -->
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
-
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
-</body>
-
+  
+  <script src="js/main.js"></script>
+  
+  </body>
 </html>
