@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style/style.css">
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+        <title>Note App</title>
+    </head>
+    <body>
+        <div class="container alert alert-info text-center">
+            <strong id="appname">Tạo ghi chú</strong>
+        </div>
+        <!--
+        <div class="container text-center" style="width: 75%;">        
+            <img class="img-thumbnail" src="res/notepad.png">
+        </div> -->
+        <div class="form-group">
+            <div></div>
+                <label for="title">Tên ghi chú *</label>
+                <input id="title" type="text" class="form-control" required>
+            </div>
+            <div>
+                <label for="private">Ghi chú bí mật</label>
+                <input id="private" type="checkbox">
+            </div>
+            <div>
+                <label for="content">Nội dung ghi chú</label>
+                <textarea id="content" class="form-control"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" id="btn_save" onClick="save()">Lưu ghi chú</button>
+        </div>
+
+        <!--Dialog block-->
+        <div class="modal" id="dialog">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div id="dialog_header" class="modal-header">
+                        <strong id="dialog_title">Thông báo</strong>
+                    </div>
+                    <div class="modal-body">
+                        <p id="dialog_content">Nội dung thông báo</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="dialog_button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Dialog end-->
+    </body>
+</html>
