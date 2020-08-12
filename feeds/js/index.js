@@ -17,11 +17,11 @@ function addList(input){
 
 
 function init(){
-    var listrepos_string = GitHub_listRepos();
+    listrepos_string = GitHub_listRepos();
     var listrepos = JSON.parse(listrepos_string);
     // lấy được tên các repo mở
     for (var i = 0; i< listrepos.length; i++){
-        var content = '<div class="card shadow"><div class="card-header"><strong id="name">NameRepoValue</strong> <i id="language" style="float: right;">LanguageRepoValue</i></div><div class="card-body"><p id="des" class="card-text">DesRepoValue</p></div><div class="card-footer"><a id="viewFeeds"><button class="btn btn-primary">Feeds</button></a><a id="viewGithub" href="UrlGitHubValue"><button class="btn btn-primary">GitHub</button></a><button class="btn btn-outline-danger"><i id="star" class="fas fa-star">StarRepoValue</i></button><button class="btn btn-outline-danger"><i id="watch" class="fas fa-eye">WatchRepoValue</i></button><button class="btn btn-outline-danger"><i id="fork" class="fas fa-share">ForkRepoValue</i></button></div></div>';
+        var content = '<div class="card"><div class="card-header"><strong id="name">NameRepoValue</strong> <i id="language" style="float: right;">LanguageRepoValue</i></div><div class="card-body"><p id="des" class="card-text">DesRepoValue</p></div><div class="card-footer"><a id="viewFeeds"><button class="btn btn-primary">Feeds</button></a><a id="viewGithub" href="UrlGitHubValue"><button class="btn btn-primary">GitHub</button></a><button class="btn btn-outline-danger"><i id="star" class="fas fa-star">StarRepoValue</i></button><button class="btn btn-outline-danger"><i id="watch" class="fas fa-eye">WatchRepoValue</i></button><button class="btn btn-outline-danger"><i id="fork" class="fas fa-share">ForkRepoValue</i></button></div></div>';
         // Đổi tên của repo
         content = content.replace("NameRepoValue", listrepos[i].name);
         content = content.replace("DesRepoValue", listrepos[i].description);
