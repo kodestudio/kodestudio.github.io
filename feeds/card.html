@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kode Status</title>
-        <!--Bootstrap và Jquery-->
-        <script src="jquery/jquery.min.js"></script>
-        <script src="bootstrap/js/bootstrap.js"></script>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-        <!--end of Bootstrap và JQuery-->
-        <link rel="stylesheet" href="css/index.css">
-        <script src="js/github.js"></script>
-        <script src="js/index.js"></script>
-    </head>
-    <body>
-            <div id="card" class="card" style="width: 75%; margin-left: auto; margin-right: auto;">
-                <div class="card-header">
-                    <div class="card-title">New commit added by <strong>quocthinhvo</strong></div>
-                </div>
-                <div class="card-body">
-                    <img src="kode.png">
-                    <div class="card-text">Đây là phần nội dung chính của một bài viết. Được load từ bên GitHub</div>
-                </div>
-                <div class="card-footer">
-                    <a class="card-link"><button class="btn btn-primary">GitHub</button></a>
-                    <a class="card-link"><button class="btn btn-danger">Report</button></a>
-                </div>
-            </div>
-    </body>
-</html>
+///////////////////////////////
+//
+// Đây là bảng gieo của cardview
+//
+///////////////////////////////
+<li class="list-group-item list-group-item-action">
+    <div class="card shadow">
+        <div class="card-header">
+            <strong id="name">NameRepoValue</strong> 
+            <i id="language" style="float: right;">Pascal</i>
+        </div>
+        <div class="card-body">
+            <p id="des" class="card-text">DesRepoValue</p>
+        </div>
+        <div class="card-footer">
+            <a id="viewFeeds"><button class="btn btn-primary">Feeds</button></a>
+            <a id="viewGithub" href="UrlGitHubValue"><button class="btn btn-primary">GitHub</button></a>
+            <button class="btn btn-outline-danger"><i id="star" class="fas fa-star">StarRepoValue</i></button>
+            <button class="btn btn-outline-danger"><i id="watch" class="fas fa-eye">WatchRepoValue</i></button>
+            <button class="btn btn-outline-danger"><i id="fork" class="fas fa-share">ForkRepoValue</i></button>
+        </div>
+    </div>
+</li>
+
+///////////////////////////////
+//
+// Đây là cái rút gọn string
+//
+///////////////////////////////
+
+<li class="list-group-item list-group-item-action"><div class="card shadow"><div class="card-header"><strong id="name">NameRepoValue</strong> <i id="language" style="float: right;">Pascal</i></div><div class="card-body"><p id="des" class="card-text">DesRepoValue</p></div><div class="card-footer"><a id="viewFeeds"><button class="btn btn-primary">Feeds</button></a><a id="viewGithub" href="UrlGitHubValue"><button class="btn btn-primary">GitHub</button></a><button class="btn btn-outline-danger"><i id="star" class="fas fa-star">StarRepoValue</i></button><button class="btn btn-outline-danger"><i id="watch" class="fas fa-eye">WatchRepoValue</i></button><button class="btn btn-outline-danger"><i id="fork" class="fas fa-share">ForkRepoValue</i></button></div></div></li>
