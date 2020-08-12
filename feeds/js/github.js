@@ -33,9 +33,9 @@ function GitHub_infoKode(){
     return api.responseText;
 }
 
-function GitHub_listRepos(){
+function GitHub_listRepos(page){
     // Trả về danh sách các repo mở trong Kode Studio
-    api.open("GET", "https://api.github.com/orgs/kodestudio/repos", false);
+    api.open("GET", "https://api.github.com/orgs/kodestudio/repos?page=" + page, false);
     api.send(null);
     return api.responseText;
 }
@@ -47,16 +47,16 @@ function GitHub_infoRepo(name){
     return api.responseText;
 }
 
-function GitHub_listMembers(){
+function GitHub_listMembers(page){
     // Lấy danh sách các thành viên công khai
-    api.open("GET", "https://api.github.com/orgs/kodestudio/members", false);
+    api.open("GET", "https://api.github.com/orgs/kodestudio/members?page=" + page, false);
     api.send(null);
     return api.responseText;
 }
 
-function GitHub_listEvents(name){
+function GitHub_listEvents(name, page){
     // lấy các sự kiện đến từ một repo
-    api.open("GET", "https://api.github.com/repos/kodestudio/" + name + "/events", false);
+    api.open("GET", "https://api.github.com/repos/kodestudio/" + name + "/events?page=" + page, false);
     api.send(null);
     return api.responseText;
 }
@@ -68,7 +68,7 @@ function GitHub_getCommit(name, sha){
     return api.responseText;
 }
 
-function GitHub_listCollaborators(name){
+function GitHub_listCollaborators(name, page){
     //lấy danh sách cộng tác viên
     api.open("GET", "https://api.github.com/repos/kodestudio/" + name + "/collaborators" + sha, false);
     api.send(null);

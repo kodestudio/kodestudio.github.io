@@ -1,6 +1,6 @@
 ////////////////////
 //
-// Khởi hàm init này chạy đầu tiên sau khi page load xong :v
+// Hàm này tạo một đối tượng mới trong list
 //
 //////////////////////////
 function addList(input){
