@@ -68,12 +68,6 @@ function GitHub_getCommit(name, sha){
     return api.responseText;
 }
 
-function GitHub_listCollaborators(name, page){
-    //lấy danh sách cộng tác viên
-    api.open("GET", "https://api.github.com/repos/kodestudio/" + name + "/collaborators" + sha, false);
-    api.send(null);
-    return api.responseText;
-}
 
 /////////////////////////////////
 //
@@ -139,13 +133,6 @@ function GitHubCode_listEvents(name){
 function GitHubCode_getCommit(name, sha){
     // lấy thông tin một commit theo sha và tên repo
     api.open("GET", "https://api.github.com/repos/kodestudio/" + name + "/git/commits/" + sha, false);
-    api.send(null);
-    return api.status;
-}
-
-function GitHubCode_listCollaborators(name){
-    //lấy danh sách cộng tác viên
-    api.open("GET", "https://api.github.com/repos/kodestudio/" + name + "/collaborators" + sha, false);
     api.send(null);
     return api.status;
 }
