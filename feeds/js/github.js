@@ -35,7 +35,7 @@ function GitHub_infoKode(){
 
 function GitHub_listRepos(page){
     // Trả về danh sách các repo mở trong Kode Studio
-    api.open("GET", "https://api.github.com/orgs/kodestudio/repos?page=" + page, false);
+    api.open("GET", "https://api.github.com/orgs/microsoft/repos?page=" + page, false);
     api.send(null);
     return api.responseText;
 }
@@ -102,9 +102,9 @@ function GitHubCode_infoKode(){
     return api.status;
 }
 
-function GitHubCode_listRepos(){
+function GitHubCode_listRepos(page){
     // Trả về danh sách các repo mở trong Kode Studio
-    api.open("GET", "https://api.github.com/orgs/kodestudio/repos", false);
+    api.open("GET", "https://api.github.com/orgs/kodestudio/repos?page=" +page, false);
     api.send(null);
     return api.status;
 }

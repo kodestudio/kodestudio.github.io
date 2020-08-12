@@ -15,9 +15,9 @@ function addList(input){
 }
 
 
-
 function init(){
-    listrepos_string = GitHub_listRepos();
+    page = 1;
+    listrepos_string = GitHub_listRepos(page);
     var listrepos = JSON.parse(listrepos_string);
     // lấy được tên các repo mở
     for (var i = 0; i< listrepos.length; i++){
@@ -29,8 +29,31 @@ function init(){
         content = content.replace("WatchRepoValue", listrepos[i].watchers_count);
         content = content.replace("ForkRepoValue", listrepos[i].forks_count);
         content = content.replace("LanguageRepoValue", listrepos[i].language);
-        content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name)
+        content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name);
         addList(content);
         //console.log(content);
+    }
+}
+
+// hàm này để load thêm kết quả
+
+function loadMore(){
+    page++;
+    // (GitHubCode_listRepos(page) == )
+    console.log(page);
+    listrepos_string = GitHub_listRepos(page);
+    var listrepos = JSON.parse(listrepos_string);
+    for (var i = 1; i< listrepos.length; i++){
+        console.log(listrepos[i].name);
+        var content = '<div><div class="card"><div class="card-header"><strong id="name">NameRepoValue</strong> <i id="language" style="float: right;">LanguageRepoValue</i></div><div class="card-body"><p id="des" class="card-text">DesRepoValue</p></div><div class="card-footer"><a id="viewFeeds" href="FeedsValue"><button class="btn btn-primary">Feeds</button></a><button style="margin-left: 10px;" class="btn btn-outline-danger"><i id="star" class="fas fa-star">StarRepoValue</i></button><button style="margin-left: 10px;" class="btn btn-outline-danger"><i id="watch" class="fas fa-eye">WatchRepoValue</i></button><button style="margin-left: 10px;" class="btn btn-outline-danger"><i id="fork" class="fas fa-share">ForkRepoValue</i></button></div></div></div>';
+        content = content.replace("NameRepoValue", listrepos[i].name);
+        content = content.replace("DesRepoValue", listrepos[i].description);
+        //content = content.replace("UrlGitHubValue", listrepos[i].html_url);
+        content = content.replace("StarRepoValue",listrepos[i].stargazers_count);
+        content = content.replace("WatchRepoValue", listrepos[i].watchers_count);
+        content = content.replace("ForkRepoValue", listrepos[i].forks_count);
+        content = content.replace("LanguageRepoValue", listrepos[i].language);
+        content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name);
+        addList(content);
     }
 }

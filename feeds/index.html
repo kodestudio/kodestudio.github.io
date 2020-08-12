@@ -18,6 +18,25 @@
     <body onLoad="init()">
         <div id="listview_repos">
         </div>
+        <div style="margin-left: auto; margin-right: auto;" class="text-center">
+            <button id="btn_load" class="btn btn-dark" onClick="loadMore()">Load more</button>
+        </div>
 
+        <!--Dia log thông báo-->
+        <div class="modal" id="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content modal-dialog-centered">
+                    <div class="modal-header">
+                        <strong id="title">Title of dialog</strong>
+                    </div>
+                    <div class="modal-body">
+                        <p id="content">Content of dialog</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" style="float: right;">Exit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
