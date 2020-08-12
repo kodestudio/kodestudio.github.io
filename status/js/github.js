@@ -127,7 +127,7 @@ function GitHubCode_listMembers(){
     api.open("GET", "https://api.github.com/orgs/kodestudio/members", false);
     api.send(null);
     return api.status;
-}
+} 
 
 function GitHubCode_listEvents(name){
     // lấy các sự kiện đến từ một repo
