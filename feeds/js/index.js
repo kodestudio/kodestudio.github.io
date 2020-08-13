@@ -1,4 +1,4 @@
-////////////////////
+//////////////////////////
 //
 // Hàm này tạo một đối tượng mới trong list
 //
@@ -43,7 +43,7 @@ function init(){
 
 function loadMore(){
     page++;
-    console.log(page);
+    //console.log(page);
     listrepos_string = GitHub_listRepos(page);
     var listrepos = JSON.parse(listrepos_string);
     //console.log(listrepos.length);
