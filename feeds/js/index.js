@@ -35,7 +35,7 @@ function init(){
     }
 }
 
-// hàm này để load thêm kết quả
+// hàm này để load thêm kết quả 
 
 function loadMore(){
     page++;
