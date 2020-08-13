@@ -39,7 +39,6 @@ function init(){
 
 function loadMore(){
     page++;
-    // (GitHubCode_listRepos(page) == )
     console.log(page);
     listrepos_string = GitHub_listRepos(page);
     var listrepos = JSON.parse(listrepos_string);
@@ -55,5 +54,5 @@ function loadMore(){
         content = content.replace("LanguageRepoValue", listrepos[i].language);
         content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name);
         addList(content);
-    }
+    }  
 }
