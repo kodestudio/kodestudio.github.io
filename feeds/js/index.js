@@ -3,6 +3,8 @@
 // Hàm này tạo một đối tượng mới trong list
 //
 //////////////////////////
+
+
 function addList(input){
     var tag = document.createElement("div");
     //var text = document.createTextNode(input);
@@ -55,4 +57,12 @@ function loadMore(){
         content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name);
         addList(content);
     }  
+}
+
+// bắt sự kiện cuộn 
+window.onscroll = function(){
+    //console.log("Đang cuộn tới " + window.pageYOffset + " trong " + $(document).height());
+    if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+        loadMore();
+    }
 }
