@@ -44,6 +44,9 @@ function loadMore(){
     console.log(page);
     listrepos_string = GitHub_listRepos(page);
     var listrepos = JSON.parse(listrepos_string);
+
+
+
     for (var i = 1; i< listrepos.length; i++){
         console.log(listrepos[i].name);
         var content = '<div><div class="card"><div class="card-header"><strong id="name">NameRepoValue</strong> <i id="language" style="float: right;">LanguageRepoValue</i></div><div class="card-body"><p id="des" class="card-text">DesRepoValue</p></div><div class="card-footer"><a id="viewFeeds" href="FeedsValue"><button class="btn btn-primary">Feeds</button></a><button style="margin-left: 10px;" class="btn btn-outline-danger"><i id="star" class="fas fa-star">StarRepoValue</i></button><button style="margin-left: 10px;" class="btn btn-outline-danger"><i id="watch" class="fas fa-eye">WatchRepoValue</i></button><button style="margin-left: 10px;" class="btn btn-outline-danger"><i id="fork" class="fas fa-share">ForkRepoValue</i></button></div></div></div>';
@@ -65,4 +68,10 @@ window.onscroll = function(){
     if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
         loadMore();
     }
+}
+
+
+function setDialog(title, content){
+    document.getElementById("title").innerHTML =  title;
+    document.getElementById("content").innerHTML = content;
 }
