@@ -3862,6 +3862,7 @@ showdown.subParser('images', function (text, options, globals) {
     result += ' />';
 
     return result;
+    //console.log(result);
   }
 
   // First, handle reference-style labeled images: ![alt text][id]

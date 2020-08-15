@@ -31,7 +31,7 @@ function init(){
                 var body_html = converter.makeHtml(body_md);
                 var content = '<div class="card-header"><img class="img-thumbnail rounded-circle" src="UserAvatarValue" style="width: 50px; height: 50px;"><strong>UserNameValue</strong><i>ActionValue</i></div><div class="card-body"><strong>TitleIssueValue</strong><p>BodyIssueValue</p></div><div class="card-footer"><a href="UrlIssuesValue"><button class="btn btn-primary"><i class="fab fa-github"></i></button></a></div>';
                 //content = content.replace()
-                content = content.replace("ActionValue", " "  + listevents[i].payload.action + " this issues");
+                content = content.replace("ActionValue", " "  + listevents[i].payload.action + " an issue.");
                 content = content.replace("UserNameValue", " " + listevents[i].actor.display_login);
                 content = content.replace("UserAvatarValue", listevents[i].actor.avatar_url);
                 content = content.replace("TitleIssueValue", listevents[i].payload.issue.title);
