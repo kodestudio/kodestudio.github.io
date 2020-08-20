@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Some config-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Load system-->
+        <script src="js/system.js"></script>
+        <!--Load config first-->
+        <script src="js/config.js"></script>
+        <!--Load GitHub API lib-->
+        <script src="js/github.js"></script>
+        <!--load create info-->
+        <script src="js/info.js"></script>
+        <!--Load event-->
+        <script src="js/event.js"></script>
+        <!--Load local script-->
+        <script src="js/index.js"></script>
+        <!--Load local style-->
+        <link rel="stylesheet" href="css/index.css">
+        <!--Load JQuery-->
+        <script src="jquery/jquery.min.js"></script>
+        <!--Load Showndown-->
+        <script src="showdown/showdown.min.js"></script>
+        <!--Load Bootstrap-->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!--Load font-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    </head>
+    <!--onload() is a function run affter page load complete-->
+    <body onLoad="init()">
+        <!--Navigation here-->
+        
+        <!--Navigation block end-->
+        <!--List main data. in the comlum-4 will show info of repo. colum-6 show list event with timeline-->
+        <div id="main" class="rows">
+            <div class="colum-4">
+                <div class="alert alert-info center">
+                    <strong>Quick info</strong>
+                </div>
+                <div class="center">
+                    <img id="owner_avatar" src="resource/loader.png" class="rounded-circle">
+                    <h3 id="repo_name"></h3>
+                    <p id="repo_desc"></p>
+                </div>
+                <div class="center">
+                    <button id="repo_stars" class="btn btn-outline-danger"><i class="fas fa-star"></i></button>
+                    <button id="repo_watchers" class="btn btn-outline-danger"><i class="fas fa-eye"></i></button>
+                    <button id="repo_size" class="btn btn-outline-danger"><i class="fas fa-file"></i></button>
+                    <button id="repo_forks" class="btn btn-outline-danger"><i class="fab fa-creative-commons-share"></i></button>
+                    <button id="repo_issues" class="btn btn-outline-danger"><i class="far fa-comment-dots"></i></button>
+                </div>
+                <div class="alert alert-info center">
+                    <strong>More info</strong>
+                </div>
+                <ul class="list-group"></ul>
+                    <li id="div_noti" class="list-group-item list-group-item-action list-group-item-warning" style="display: none;">
+                        <strong>Official notification: </strong> <p id="repo_noti"></p>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <strong>Main language: </strong> <p id="repo_lang"></p>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <strong>Created at: </strong> <p id="repo_created"></p>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <strong>Updated at: </strong> <p id="repo_updated"></p>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <strong>Pushed at: </strong> <p id="repo_pushed"></p>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <strong>Default branch: </strong> <p id="repo_defaultbranch"></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="colum-6">
+                <div class="alert alert-info center">
+                    <strong>Timeline</strong>
+                </div>
+                <div class="center">
+                    <a id="tweet"><button class="btn btn-outline-primary">Tweet for this repo</button></a>
+                </div>
+                <div id="list_events" class="list-group"></div>
+                <div class="alert alert-danger center" id="alert_all" style="display: none">
+                    <strong>You see all content</strong>
+                </div>
+            </div>
+        </div>
+        <!--Block end of web-->
+        <div id="footer" class="alert alert-info center">
+            <!--you can add another link here with <a>-->
+            <!--Dont remove "Neon" credit it-->
+            <strong>This site powered by <a href="https://www.github.com/kodestudio/neon">Neon</a></strong>
+        </div>
+        <!--Block of dialog info-->
+        <div id="dialog" class="modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <strong id="dialog_title">Title here</strong>
+                    </div>
+                    <div class="modal-body">
+                        <p id="dialog_content">Main content here</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="dialog_close" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of block dialog-->
+    </body>
+</html>

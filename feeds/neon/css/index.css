@@ -1,0 +1,54 @@
+/* 
+    This file is stylesheet for index.html. 
+    Author: Võ Quốc Thịnh
+    GitHub: quocthinhvo
+    Email: quocthinhvo0@gmail.com
+*/
+
+.rows
+{
+    /* this class fotmat for a row*/
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.colum-4
+{
+    /*this class use for comlum with 40% width*/
+    width: 40%;
+    border-right-style: solid;
+}
+
+.colum-6
+{
+    /*this class use for col with width  = 60%*/
+    width: 60%;
+}
+
+.center
+{
+    text-align: center;
+}
+/*style of owner_avatar*/
+#owner_avatar
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*change layout auto in smartphone*/
+@media only screen and (max-width: 700px){
+    .colum-4
+    {
+        width: 100%;
+        border-right-style: none;
+    
+    }
+    .colum-6
+    {
+        width: 100%;
+    }
+}

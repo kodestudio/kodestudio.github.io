@@ -32,7 +32,7 @@ function init(){
         //content = content.replace("WatchRepoValue", listrepos[i].watchers_count);
         content = content.replace("ForkRepoValue", listrepos[i].forks_count);
         content = content.replace("LanguageRepoValue", listrepos[i].language);
-        content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name);
+        content = content.replace("FeedsValue","neon/index.html?repo="+  listrepos[i].name);
         content = content.replace("UpdateValue", listrepos[i].updated_at)
         addList(content);
         //console.log(content);
@@ -59,7 +59,7 @@ function loadMore(){
             //content = content.replace("WatchRepoValue", listrepos[i].watchers_count);
             content = content.replace("ForkRepoValue", listrepos[i].forks_count);
             content = content.replace("LanguageRepoValue", listrepos[i].language);
-            content = content.replace("FeedsValue","view.html?repo="+  listrepos[i].name);
+            content = content.replace("FeedsValue","neon/index.html?repo="+  listrepos[i].name);
             addList(content);
         }   
     } else {
