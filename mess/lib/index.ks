@@ -63,7 +63,7 @@ begin
 
                         storage.setKeyValue('tempName', mess.from);
                         storage.setKeyValue('tempCode', mess.code);
-                        asm  window.open("kodechat.html", "_self"); end;
+                        asm  window.open("chat.html", "_self"); end;
                     end else 
                     begin 
                         //writeln('fail at input room id');

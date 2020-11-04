@@ -1738,7 +1738,7 @@ rtl.module("program",["System","SysUtils","JS","browserapp","kodedom","kodefireb
           $mod.fire.pushData("rooms\/" + $mod.mess.code,$mod.mess);
           $mod.storage.setKeyValue("tempName",$mod.mess.from);
           $mod.storage.setKeyValue("tempCode",$mod.mess.code);
-          window.open("kodechat.html", "_self");
+          window.open("chat.html", "_self");
         } else {
           $mod.obj.setInnerHtml("dialogTitleText","Please input name again");
           $mod.obj.setInnerHtml("dialogContentText","Enter full information including name (anonymous), chat room code and try again");
