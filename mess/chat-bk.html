@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Chat</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body onLoad="loading()" onunLoad="stopchat()">
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control"  id="input_message" onKeypress="press(event)" placeholder="Message here">
+            <div class="input-group-append">
+              <button class="btn btn-success" onClick="send()">Send</button>
+            </div>
+          </div>
+          
+        <div id="area_messages" style="height: 100% ;overflow: auto;display: flex;flex-direction: column-reverse;">
+            
+        </div>
+        
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+              apiKey: "AIzaSyDxT4m5ZQ3L9JLuC0GCZTAo_Ggx2obWu0w",
+              authDomain: "learn-21156.firebaseapp.com",
+              databaseURL: "https://learn-21156.firebaseio.com",
+              projectId: "learn-21156",
+              storageBucket: "learn-21156.appspot.com",
+              messagingSenderId: "13335684676",
+              appId: "1:13335684676:web:dbdbdbaed03c166bbe7e11",
+              measurementId: "G-044FVEKHBN"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+          </script>
+
+        <script src="js/chat.js"></script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ut8-8">
+        <meta name="viewport" content="initial-scale = 1, width=device-width">
+        <title>Kode Mess Login</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body onLoad="rtl.run()">
+            <div class="col-8 form-group shadow" style="margin: auto;">
+                    <h1>
+                        Join to room chat now!
+                    </h1>
+                    <h5>
+                        Shh! Everything will be a secret.
+                    </h5>
+                    <label>Your name: </label>
+                    <input id="input_name" class="form-control" type="text">
+
+                    <label>Input room ID: <button class="btn btn-outline-success btn-sm" onClick="var text; text = firebase.database().ref('rooms').push().key; document.getElementById('input_roomid').value = text;">random</button></label>
+                    <input class="form-control" type="text" id="input_roomid">
+
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-9 form-check">
+                            <label>
+                                By clicking Jump, you will agree to the terms and privacy.
+                            </label>
+                        </div>
+                        <div class="col-3">
+                            <button onclick="pas.program.jump('run')" class="btn btn-primary btn-block" id="button_jump">
+                                Jump to room
+                            </button>
+                        </div>
+                    </div>
+            </div>  
+        </div>   
+
+        <div class="modal" id="dialog_ask">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <strong id="dialogTitleText">Do you want to create this room</strong>
+                        </div>
+                        <div class="modal-body">
+                            <p id="dialogContentText"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-warning" >
+                                Ok
+                            </button>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+              apiKey: "AIzaSyDxT4m5ZQ3L9JLuC0GCZTAo_Ggx2obWu0w",
+              authDomain: "learn-21156.firebaseapp.com",
+              databaseURL: "https://learn-21156.firebaseio.com",
+              projectId: "learn-21156",
+              storageBucket: "learn-21156.appspot.com",
+              messagingSenderId: "13335684676",
+              appId: "1:13335684676:web:dbdbdbaed03c166bbe7e11",
+              measurementId: "G-044FVEKHBN"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+          </script>
+
+        <script src="lib/index.js"></script>
+
+    </body>
+</html>
