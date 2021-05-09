@@ -10,48 +10,65 @@
 
     <style>
         body {
-            background: #f5f5f5;
-            font-family: 'Roboto', sans-serif;
+            background: #0000aa;
+            color: #ffffff;
+            font-family: courier;
+            font-size: 12pt;
+            text-align: center;
+            margin: 100px;
         }
 
-        .mini {
-            font-size: 1em;
-            color: #000;
-            line-height: 9em;
-            text-indent: 2.5em;
-            position: absolute;
-            left: 50%;
-            top: 50%;
+        blink {
+            color: yellow;
         }
 
-        .mega,
-        .bola {
-            line-height: 1.65em;
+        .neg {
+            background: #fff;
+            color: #0000aa;
+            padding: 2px 8px;
             font-weight: bold;
-            font-size: 11em;
-            color: black;
-            font-family: 'Roboto', sans-serif;
-            width: 300px;
-            height: 300px;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin-left: -150px;
-            margin-top: -150px;
         }
 
-        .boom {
-            color: #f5f5f5;
+        p {
+            margin: 30px 100px;
+            text-align: left;
+        }
+
+        a,
+        a:hover {
+            color: inherit;
+            font: inherit;
+        }
+
+        .menu {
+            text-align: center;
+            margin-top: 50px;
         }
     </style>
 </head>
 
 <body>
-    <p class="mega">404</p>
-    <div class="bola">
-    </div>
+    <!-- Origin idea: https://codepen.io/ThunderOpen/pen/BdKDj-->
+    <span class="neg">ERROR 404</span>
+    <br>
+    <span class="neg">Page not found</span>
+    <p>
+        The page is missing or never was written. You can wait and<br />
+        see if it becomes available again, or you can press the ENTER button with a hammer.
     </p>
-    <a href="https://kodelang.dev" class="mini"><button class="btn btn-primary">Về trang chủ</button></a>
+    <p>
+        * Send us an e-mail to notify this and try it later.<br />
+
+        * Tell your mom: I need a gaming laptop to access this site.<br />
+        &nbsp; Goodluck ¯\_(ツ)_/¯
+    </p>
+    Press any link to continue <blink>_</blink>
+    <div class="menu">
+        <a href="index.html">index</a> |
+        <a href="contact.html">webmaster</a>
+    </div>
+
+    
 </body>
 
 </html>
