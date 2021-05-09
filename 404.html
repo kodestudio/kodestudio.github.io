@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>404 - Page not found</title>
-        <meta name="viewport" content="width=device-with, initial-scale=1">
-    </head>
-    <body>
-        <div id="main"  style="width: 100%; height: max-content; text-align: center;">
-            <h3>404- Page not found</h3>
-            <a href="https://kodelang.dev">Go Home</a>
-        </div>
-    </body>
+
+<head>
+    <title>404 - Page not found</title>
+    <meta name="viewport" content="width=device-with, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            background: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .mini {
+            font-size: 1em;
+            color: #000;
+            line-height: 9em;
+            text-indent: 2.5em;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+
+        .mega,
+        .bola {
+            line-height: 1.65em;
+            font-weight: bold;
+            font-size: 11em;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -150px;
+            margin-top: -150px;
+        }
+
+        .boom {
+            color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="mega">404</p>
+    <div class="bola">
+    </div>
+    </p>
+    <a href="https://kodelang.dev" class="mini"><button class="btn btn-primary">Về trang chủ</button></a>
+</body>
+
 </html>
