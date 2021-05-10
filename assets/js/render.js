@@ -2,21 +2,21 @@ var headerContent = `
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
     <a href="index.html" class="logo d-flex align-items-center">
-    <img src="assets/img/logo-kode.png" alt="">
+    <img src="assets/img/logo_fill.png" alt="">
     <span>Kode Space</span>
     </a>
 
     <nav id="navbar" class="navbar">
     <ul>
-        <li><a class="nav-link scrollto" href="https://kodelang.dev">Trang chủ</a></li>
-        <li><a class="nav-link scrollto" href="https://kodelang.dev/blog">Blog</a></li>
-        <li><a class="nav-link scrollto" href="https://kodelang.dev/product">Sản phẩm</a></li>
-        <li><a class="nav-link scrollto" href="https://kodelang.dev/project">Dự án</a></li>
-        <li><a class="nav-link scrollto" href="https://kodelang.dev/store">Cửa hàng</a></li>
-        <li><a class="nav-link scrollto" href="https://kodelang.dev/about">Về chúng tôi</a></li>
+        <li><a class="nav-link scrollto" href="index.html">Trang chủ</a></li>
+        <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+        <li><a class="nav-link scrollto" href="product.html">Sản phẩm</a></li>
+        <li><a class="nav-link scrollto" href="project.html">Dự án</a></li>
+        <li><a class="nav-link scrollto" href="store.html">Cửa hàng</a></li>
+        <li><a class="nav-link scrollto" href="about.html">Về chúng tôi</a></li>
         <li class="dropdown"><a href=""><span>Thêm</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
-            <li><a href="https://kodelang.dev/contact">Liên hệ</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
             <li class="dropdown"><a href="#"><span>Mạng xã hội</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
                 <li><a href="https://www.facebook.com/kode.page">Facebook</a></li>
@@ -24,8 +24,8 @@ var headerContent = `
                 <li><a href="https://www.youtube.com/channel/UCNE3g4pFx40HJrnBoHzgJ8A">YouTube</a></li>
             </ul>
             </li>
-            <li><a href="https://kodelang.dev/donate">Ủng hộ</a></li>
-            <li><a href="https://kodelang.dev/job">Việc làm</a></li>
+            <li><a href="donate.html">Ủng hộ</a></li>
+            <li><a href="job.html">Việc làm</a></li>
         </ul>
         </li>
         <li><a class="getstarted scrollto" href="#">Quản lí</a></li>
