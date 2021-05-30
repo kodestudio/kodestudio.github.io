@@ -119,8 +119,8 @@ var footerContent = `
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and edit by <a
-        href="https://www.github.com/quocthinhvo">@quocthinhvo</a>
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and edit with ❤ by <a
+        href="https://www.github.com/kodestudio">@koder</a>
     </div>
     </div>
 `;
