@@ -12,23 +12,25 @@ var headerContent = `
         <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
         <li><a class="nav-link scrollto" href="product.html">Sản phẩm</a></li>
         <li><a class="nav-link scrollto" href="project.html">Dự án</a></li>
-        <li><a class="nav-link scrollto" href="store.html">Cửa hàng</a></li>
+        <li><a class="nav-link scrollto" href="member.html">Thành viên</a></li>
         <li><a class="nav-link scrollto" href="about.html">Về chúng tôi</a></li>
         <li class="dropdown"><a href=""><span>Thêm</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
             <li><a href="contact.html">Liên hệ</a></li>
             <li class="dropdown"><a href="#"><span>Mạng xã hội</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-                <li><a href="https://www.facebook.com/kode.page">Facebook</a></li>
-                <li><a href="https://www.github.com/kodestudio">GitHub</a></li>
-                <li><a href="https://www.youtube.com/channel/UCNE3g4pFx40HJrnBoHzgJ8A">YouTube</a></li>
+            <li><a href="https://www.facebook.com/kode.page">Facebook</a></li>
+            <li><a href="https://www.instagram.com/kode.page">Instagram</a></li>
+            <li><a href="https://www.github.com/kodestudio">GitHub</a></li>
+            <li><a href="https://www.youtube.com/channel/UCNE3g4pFx40HJrnBoHzgJ8A">YouTube</a></li>
+            <li><a href="https://www.twitter.com/kodestudio">Twitter</a></li>
             </ul>
             </li>
             <li><a href="donate.html">Ủng hộ</a></li>
             <li><a href="job.html">Việc làm</a></li>
         </ul>
         </li>
-        <li><a class="getstarted scrollto" href="#">Quản lí</a></li>
+        <li><a class="getstarted scrollto" href="#">Tham gia ngay!</a></li>
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
