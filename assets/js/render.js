@@ -78,8 +78,8 @@ var footerContent = `
         <h4>Liên kết</h4>
         <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Trang chủ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Về chúng tôi</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Blog</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.htmk">Về chúng tôi</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">blog.html</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Điều khoản và điều kiện</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Quy định chung</a></li>
         </ul>
