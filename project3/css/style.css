@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 [class*="col-"] {
   width: 100%;
   float: left;
@@ -55,6 +59,7 @@ img {
   padding-right: 2.5rem;
   font-family: "Lato";
   font-weight: bolder;
+  font-size: auto;
 }
 
 .nav-left {
@@ -227,8 +232,22 @@ img {
     padding: 0px 0px 0px 0px  !important;
   }
 
-  .banner {
-    display:none !important;
+  .bannerImage {
+    visibility: hidden !important;
+  }
+
+  .bannerText {
+    color: black !important;
+    word-wrap: normal !important;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    left: 3vw !important;
+    top: 4vw !important;
+    bottom: 3vw
+  }
+
+  .bannerText>h1 {
+    font-family: "Lato", sans-serif;
   }
 }
 
