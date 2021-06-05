@@ -18,7 +18,16 @@
   width: 100%;
 }
 
-/* NAVIGATION BAR */
+/* ===CLEARFIX=== */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  width: 0px;
+  height: 0px;
+}
+
+/* ===NAVIGATION BAR=== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -62,9 +71,35 @@
   list-style-type: none;
 }
 
+/* ===BANNER=== */
+.banner {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0px;
+}
 
+.bannerImage {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  display: block
+}
 
-/* FOR DESKTOP */
+.bannerText {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+}
+
+.bannerText>h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px black;
+  font-family: serif;
+}
+
+/* ===FOR DESKTOP=== */
 @media only screen and (min-width: 992px) {
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -89,7 +124,7 @@
 
 }
 
-/* FOR TABLETS */
+/* ===FOR TABLETS=== */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -114,7 +149,7 @@
 
 }
 
-/* FOR MOBILE */
+/* ===FOR MOBILE=== */
 @media only screen and (max-width: 767px) {
   .col-m-1 {width: 8.33%;}
   .col-m-2 {width: 16.66%;}
