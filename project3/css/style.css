@@ -1,7 +1,7 @@
 /* 
-=============================
-|       CSS PROJECT 3       |
-=============================
+===============================
+|      CSS ASSIGNMENT 3       |
+===============================
 */
 
 
@@ -11,14 +11,32 @@
 
 [class*="col-"] {
   width: 100%;
+  float: left;
+  padding: 15px;
 }
 
+/* === ROW CONTAINER === */
 .row {
   float: left;
   width: 100%;
 }
 
-/* ===CLEARFIX=== */
+/* === CONTAINER === */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.container img:first-child{
+  padding-bottom: 30px;
+}
+
+/* === IMAGE MAXIMUM WIDTH === */
+img {
+  max-width: 100%;
+}
+/* === CLEARFIX === */
 .clearfix:after{
   clear: both;
   content: ".";
@@ -27,7 +45,7 @@
   height: 0px;
 }
 
-/* ===NAVIGATION BAR=== */
+/* === NAVIGATION BAR === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -87,7 +105,7 @@
 
 .bannerText {
   position: absolute;
-  top: 50px;
+  top: 60px;
   left: 50px;
   color: white;
 }
@@ -149,6 +167,15 @@
 
 }
 
+.bannerText {
+  font-size: 15px !important;
+}
+
+
+.bannerText>h1 {
+  font-size: 45px;
+}
+
 /* ===FOR MOBILE=== */
 @media only screen and (max-width: 767px) {
   .col-m-1 {width: 8.33%;}
@@ -200,6 +227,9 @@
     padding: 0px 0px 0px 0px  !important;
   }
 
+  .banner {
+    display:none !important;
+  }
 }
 
 
