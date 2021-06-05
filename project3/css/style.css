@@ -205,6 +205,10 @@ img {
 
   .navbar {
     background-color: #556270;
+    font-size: 12.5px;
+    padding-left: 5%;
+    padding-right: 5%;
+
   }
   
   .nav-link, .nav-link:hover {
@@ -225,18 +229,9 @@ img {
         float: left !important;
       }
 
-
-  .nav-item-right {
-        margin-left: 1rem ;
-    }
   
-  .nav-left, .nav-right {
-    float: none !important;
-  }
-
-  ul.nav-right {
-    margin: 0px 0px 0px 0px !important;
-    padding: 0px 0px 0px 0px  !important;
+  .nav-link, .navbar>li a, .nav-item-left, .nav-item-right  {
+    width: 16%;
   }
 
   .bannerImage {
