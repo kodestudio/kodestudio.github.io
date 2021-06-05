@@ -215,6 +215,18 @@ img {
     color: white;
   } 
 
+  .nav-left {
+    padding: 0px;
+    width: 36%;
+    display: flex;
+    float: left;
+  }
+
+  .nav-right {
+    padding: 0px;
+    width: 36%;
+  }
+
   .nav-menu {
         display:inline-flex;
         position: fixed;
@@ -230,9 +242,6 @@ img {
       }
 
   
-  .nav-link, .navbar>li a, .nav-item-left, .nav-item-right  {
-    width: 16%;
-  }
 
   .bannerImage {
     visibility: hidden !important;
