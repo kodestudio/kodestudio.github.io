@@ -1,0 +1,170 @@
+/* 
+=============================
+|       CSS PROJECT 3       |
+=============================
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2.5rem;
+  font-family: "Lato";
+  font-weight: bolder;
+}
+
+.nav-left {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 0px 0px !important
+}
+
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-left {
+  margin-left: none;
+}
+
+.nav-item-right {
+  margin-left: 5rem;
+}
+
+.nav-link, .navlink:hover {
+  text-decoration: none;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+}
+
+
+
+/* FOR DESKTOP */
+@media only screen and (min-width: 992px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .navbar {
+    background-color: white;
+  }
+  
+  .nav-link, .nav-link:hover {
+    color: black;
+  }
+
+}
+
+/* FOR TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  .navbar {
+    background-color: #556270;
+  }
+  
+  .nav-link, .nav-link:hover {
+    color: white;
+  }
+
+}
+
+/* FOR MOBILE */
+@media only screen and (max-width: 767px) {
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+
+  .navbar {
+    background-color: #556270;
+  }
+  
+  .nav-link, .nav-link:hover {
+    color: white;
+  } 
+
+  .nav-menu {
+        display:inline-flex;
+        position: fixed;
+        left: -100%;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        float: left !important;
+      }
+
+
+  .nav-item-right {
+        margin-left: 1rem ;
+    }
+  
+  .nav-left, .nav-right {
+    float: none !important;
+  }
+
+  ul.nav-right {
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px  !important;
+  }
+
+}
+
+
