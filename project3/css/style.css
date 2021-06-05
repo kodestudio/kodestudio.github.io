@@ -19,17 +19,13 @@ body {
   padding: 15px;
 }
 
-/* === ROW CONTAINER === */
-.row {
-  float: left;
-  width: 100%;
-}
+
 
 /* === CONTAINER === */
 .container {
   margin: 0 auto;
-  width: 100%;
-  max-width: 1120px;
+  width: 100% ;
+  max-width: 1120px ;
 }
 
 .container img:first-child{
@@ -110,7 +106,7 @@ img {
 
 .bannerText {
   position: absolute;
-  top: 60px;
+  top: 90px;
   left: 50px;
   color: white;
 }
@@ -145,6 +141,17 @@ img {
     color: black;
   }
 
+  .photo {
+    background-color: #e4e4e4 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  
+  .text {
+    background-color: #f0f0f0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
 }
 
 /* ===FOR TABLETS=== */
