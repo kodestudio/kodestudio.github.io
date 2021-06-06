@@ -1,0 +1,278 @@
+/* 
+===============================
+|      CSS ASSIGNMENT 3       |
+===============================
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+
+
+/* === CONTAINER === */
+.container {
+  margin: 0 auto;
+  width: 100% ;
+  max-width: 1120px ;
+}
+
+.container img:first-child{
+  padding-bottom: 30px;
+}
+
+/* === IMAGE MAXIMUM WIDTH === */
+img {
+  max-width: 100%;
+}
+/* === CLEARFIX === */
+.clearfix:after{
+  clear: both;
+  display: block;
+  content:" ";
+  width: 0px;
+  height: 0px;
+}
+
+/* === NAVIGATION BAR === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2.5rem;
+  font-family: "Lato";
+  font-weight: bolder;
+  font-size: auto;
+}
+
+.nav-left {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 0px 0px !important
+}
+
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-left {
+  margin-left: none;
+}
+
+.nav-item-right {
+  margin-left: 5rem;
+}
+
+.nav-link, .navlink:hover {
+  text-decoration: none;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+}
+
+/* ===BANNER=== */
+.banner {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  display: block
+}
+
+.bannerText {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  color: white;
+}
+
+.bannerText>h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px black;
+  font-family: serif;
+}
+
+/* ===FOR DESKTOP=== */
+@media only screen and (min-width: 992px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .navbar {
+    background-color: white;
+  }
+  
+  .nav-link, .nav-link:hover {
+    color: black;
+  }
+
+  .photo {
+    background-color: #e4e4e4 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  
+  .text {
+    background-color: #f0f0f0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* ===FOR TABLETS=== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  .navbar {
+    background-color: #556270;
+  }
+  
+  .nav-link, .nav-link:hover {
+    color: white;
+  }
+
+}
+
+.bannerText {
+  font-size: 15px !important;
+}
+
+
+.bannerText>h1 {
+  font-size: 45px;
+}
+
+/* ===FOR MOBILE=== */
+@media only screen and (max-width: 767px) {
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+
+  .navbar {
+    background-color: #556270;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  
+  .nav-link, .nav-link:hover {
+    color: white;
+  } 
+
+  .nav-item-right {
+    margin: 0px 0px;
+
+  }
+
+  .nav-item-left {
+    margin: 0px 8px;
+  }
+
+
+  .nav-left {
+    padding: 0px;
+    width: 36%;
+  }
+
+  .nav-right {
+    padding: 0px;
+    width: 54%;
+  }
+
+  .nav-menu {
+        display:inline-flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100% !important;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        float: left !important;
+      }
+
+  
+
+  .bannerImage {
+    visibility: hidden !important;
+  }
+
+  .bannerText {
+    color: black !important;
+    word-wrap: normal !important;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    left: 3vw !important;
+    top: 4vw !important;
+    bottom: 3vw;
+    position: absolute;
+    line-height: 45px;
+    display: block;
+  }
+
+  .bannerText>h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 10vw;
+  }
+
+  .bannerText>p {
+    font-size: 3vw;
+  }
+}
+
+
