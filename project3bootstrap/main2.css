@@ -60,8 +60,18 @@ img {
 }
 
 .custom8 {
-    padding-top: none;
-    margin-top: none;
+    padding-top: -200px;
+    margin-top: -200px !important;
+}
+
+.custom5 {
+    margin-top: -35px;
+    padding-top: 30px;
+}
+
+.custom6 h4 {
+    font-family: "Source Serif Pro", serif;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 992px) {
