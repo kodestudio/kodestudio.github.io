@@ -42,6 +42,12 @@ img {
     color: black;
     background-color: white !important;
     font-family: "Source Serif Pro", serif;
+    padding-top: none;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+
+.custom1>h1 {
     font-weight: bolder;
 }
 
@@ -51,6 +57,11 @@ img {
 
 .custom4 {
     padding-right: 30px;
+}
+
+.custom8 {
+    padding-top: none;
+    margin-top: none;
 }
 
 @media only screen and (min-width: 992px) {
@@ -77,6 +88,10 @@ img {
         color: white;
         font-family: "Source Serif Pro", serif;
         font-weight: bolder;
+        padding-top: none;
+        margin-top: none;
+        margin-bottom: none;
+        padding-bottom: none;
     }
 }
 
