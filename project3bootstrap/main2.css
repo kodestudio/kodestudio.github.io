@@ -1,0 +1,85 @@
+/*==========================================
+|           ASSIGNMENT 3 CSS FILE          |
+|    F X - 1 0 9 0 9 - Nguyen Ngoc Thien   |
+==========================================*/
+
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+img {
+    max-width: 100%;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1120px;
+}
+
+.container img:first-child {
+    padding-bottom: 30px;
+}
+
+.custom {
+    background-color: #556270 !important;
+}
+
+.custom7,
+.nav-link {
+    color: white !important;
+    opacity: 100%;
+}
+
+.custom1 {
+    color: black;
+    background-color: white !important;
+    font-family: "Source Serif Pro", serif;
+    font-weight: bolder;
+}
+
+.custom3 {
+    padding-right: 30px;
+}
+
+.custom4 {
+    padding-right: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+    .custom {
+        background-color: white !important;
+    }
+    .custom7 {
+        color: #000 !important;
+    }
+    .custom5 {
+        background-color: #e4e4e4;
+    }
+    .custom6 {
+        background-color: #f0f0f0;
+    }
+    .custom1 {
+        background-image: url(images/lodging.png);
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        color: white;
+        font-family: "Source Serif Pro", serif;
+        font-weight: bolder;
+    }
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}

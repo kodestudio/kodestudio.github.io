@@ -1,51 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Assignment 3 - RWD Web design using Bootstrap Framework">
-  <meta title="Assignment 3">
-  <title>Assignment 3</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap CSS & JS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-  <link href="main.css" rel="stylesheet" type="text/css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="main2.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-  <!-- Navigation bar -->
-  <nav class="py-2 bg-dark border-bottom navbar navbar-dark navbar-expand-md bd-navbar">
-    <div class="container flex-wrap flex-md-nowrap">
-      <ul class="nav me-auto">
-        <li class="nav-item"><a href="https://getbootstrap.com/docs/5.0/examples/headers/#"
-            class="nav-link link-light px-2 active" aria-current="page">HOME</a></li>
-        <li class="nav-item"><a href="https://getbootstrap.com/docs/5.0/examples/headers/#"
-            class="nav-link link-light px-2">BRAND</a></li>
-        <li class="nav-item"><a href="https://getbootstrap.com/docs/5.0/examples/headers/#"
-            class="nav-link link-light px-2">BROWSE</a></li>
+    <nav class="navbar navbar-expand navbar-dark custom">
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto custom">
+            <li class=" nav-item ">
+                <a href="#" class="nav-link custom7">BRAND</a>
+            </li>
+            <li class=" nav-item ">
+                <a href="#" class="nav-link custom7">BROWSE</a>
+            </li>
+        </ul>
+        <!-- Right -->
+        <ul class="navbar-nav ml-auto custom">
+            <li class=" nav-item ">
+                <a href="#" class="nav-link custom7">SIGN UP</a>
+            </li>
+            <li class=" nav-item ">
+                <a href="#" class="nav-link custom7">LOGIN</a>
+            </li>
+            <li class=" nav-item ">
+                <a href="#" class="nav-link custom7">HELP</a>
+            </li>
+        </ul>
+    </nav>
 
-      </ul>
-      <ul class="nav">
-        <li class="nav-item"><a href="https://getbootstrap.com/docs/5.0/examples/headers/#"
-            class="nav-link link-light px-2">SIGN UP</a></li>
-        <li class="nav-item"><a href="https://getbootstrap.com/docs/5.0/examples/headers/#"
-            class="nav-link link-light px-2">LOG IN</a></li>
-        <li class="nav-item"><a href="https://getbootstrap.com/docs/5.0/examples/headers/#"
-            class="nav-link link-light px-2">HELP</a></li>
-      </ul>
+    <!-- Banner -->
+    <div class="jumbotron jumbotron-fluid custom1">
+        <div class="container">
+            <h1>Find a place to stay</h1>
+            <p>Rent from people in over 34,000 cities and countries</p>
+        </div>
     </div>
-    
-  </nav>
+
+    <!-- Photo Grid -->
+    <div class="custom5">
+        <div class="container">
+            <h2>Neighborhood Guides</h2>
+            <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+        </div>
+        <div class="container ">
+            <div class="clearfix row">
+
+                <div class="col-lg-4 col-md-6 col-sm-12 custom3">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png" />
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/ny.png" />
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12 custom4">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png" />
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/paris.png" />
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/invite.png" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--TEXT GRID-->
+    <div class=" custom6">
+        <div class="container ">
+            <div class="clearfix row">
+                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                    <h4>Travel</h4>
+                    <p>From apartments and rooms to tree houses and boats: stay in unique spaces in 192 countries</p>
+                    <a href="https://www.airbnb.com/help/booking-and-traveling ">See how to travel on Airbnb</a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                    <h4>Host</h4>
+                    <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+                    <a href="https://www.airbnb.com/hosting ">Learn more about hosting</a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 ">
+                    <h4>Trust and safety</h4>
+                    <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+                    <a href="https://www.airbnb.com/trust ">Learn about trust at Airbnb</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
