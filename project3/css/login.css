@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.layer {
+    background-image: url("https://github.com/kodestudio/kodestudio.github.io/blob/master/assets/img/features.png?raw=true");
+
+}
+
+.body{
+    background-image: url("https://github.com/kodestudio/kodestudio.github.io/blob/master/assets/img/features.png?raw=true");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.body .layer{
+    width: 100%;
+    height: 100%;
+    /*  To keep login form in center of the page    */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.form{
+    position: relative;
+    margin: 20px 0px;
+    width: 90%;
+    max-width: 480px;
+    text-align: center;
+    background: #fff;
+    padding: 43px 40px;
+    border-radius: 2px;
+}
+.form .heading{
+    color: #000;
+    font-size: 25px;
+    margin: 0px 0 0px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.form .signup-form{
+    display: none;
+}
+.form .input{
+    width: 100%;
+    padding: 15px;
+    background: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 25px;
+    color: black !important;
+    font-size: 13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.form .input:focus{
+    color:white;
+    outline:none;
+    border:1px solid #8BC3A3
+}
+.form .submit{
+    width: 100%;
+    padding: 0 20px;
+    line-height: 50px;
+    background: #1ebbf0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+.form .submit:hover{
+    background-color: #1a9dc9;
+}
+.form .input-box{
+    margin-top: 40px;
+}
+.form .togglebtn {
+    color: cornflowerblue;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.15vw
+}
+::-webkit-input-placeholder{
+    color:black;
+    font-size:17px
+}
+:-moz-placeholder{
+    color:black;
+    font-size:17px
+}
+::-moz-placeholder{
+    color:black;
+    font-size:17px
+}
+:-ms-input-placeholder{
+    color:black;
+    font-size:17px
+}

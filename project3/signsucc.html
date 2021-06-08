@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Login">
+    <meta name="description" content="Login page using RWD">
+    <meta name="charset" content="UTF-8">
+    <meta name="lang" content="en-US">
+
+    <!-- Page Title -->
+    <title>Login</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+    <!-- Some JS script -->
+    <script>
+        function show_create(){
+    $(".login-form").css("display","none");
+    $(".signup-form").fadeIn();
+}
+function show_login(){
+    $(".signup-form").css("display","none");
+    $(".login-form").fadeIn();
+}
+    </script>
+
+</head>
+<body>
+    <div class="body">
+        <div class="layer">
+            <div class="form">
+                <div class="login-form">
+                    <div class="heading">Sign up successful! Now, please log in.</div>
+                    <div class="input-box">
+                        <form action="" method="post">
+                            <input type="email" class="input" placeholder="Email address..." required>
+                            <input type="password" class="input" placeholder="Password..." required>
+                            <input onclick="location.href = 'success.html';" type="submit" class="submit" value="login">
+                        </form>
+                    </div>
+                    <br>
+                    Don't have an account? <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_create()">Create an account</button> now! Or <a href="index.html" class="togglebtn">go back to homepage</a> 
+                </div>
+                <div class="signup-form">
+                    <div class="heading"> Sign up </div>
+                    <div class="input-box">
+                        <form action="" method="post">
+                            <input type="text" class="input" placeholder="New Email address..." required>
+                            <input type="password" class="input" placeholder="New password..." required>
+                            <input type="password" class="input" placeholder="Repeat new password..." required>
+                            <input type="submit" class="submit" value="Create account">
+                        </form>
+                    </div>
+                    <br>
+                    Already signed up? <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_login()">Login</button>.
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
