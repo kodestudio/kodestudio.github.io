@@ -143,6 +143,7 @@ img {
 }
 .bannerText>p {
     font-size: 4vw;
+    font-weight: normal;
 }
 
 /* === FOR DESKTOP === */
