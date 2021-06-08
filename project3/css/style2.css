@@ -302,8 +302,9 @@ img {
         margin-left: 5rem;
     }
 
-    .bannerText {
-        bottom: none !important;
+    .banner {
+        margin-bottom: -17vw !important;
+        
     }
 
     .bannerText>p {
