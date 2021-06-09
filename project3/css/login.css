@@ -8,10 +8,6 @@ html, body{
     height: 100%;
 }
 
-.layer {
-    background-image: url("https://github.com/kodestudio/kodestudio.github.io/blob/master/assets/img/features.png?raw=true");
-
-}
 
 .body{
     background-image: url("https://github.com/kodestudio/kodestudio.github.io/blob/master/assets/img/features.png?raw=true");
@@ -26,7 +22,6 @@ html, body{
 .body .layer{
     width: 100%;
     height: 100%;
-    /*  To keep login form in center of the page    */
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -51,7 +46,7 @@ html, body{
     border-radius: 2px;
 }
 .form .heading{
-    color: #000;
+    color: #000;/
     font-size: 25px;
     margin: 0px 0 0px;
     height: 30px;
@@ -108,7 +103,7 @@ html, body{
     outline: none;
     cursor: pointer;
     font-weight: 600;
-    font-size: 1.15vw
+    font-size: 17px;
 }
 ::-webkit-input-placeholder{
     color:black;
