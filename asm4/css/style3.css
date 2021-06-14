@@ -133,8 +133,9 @@ section {
     padding-bottom: 5vw;
     padding-top: 11vw;
     width: 100%;
-    height: 100vh;
-    background: url(../assets/img/hero-bg.jpg) top center no-repeat;
+    height: 40vh;
+    background: none;
+    background-color: #ea0429;
     background-size: cover;
   }
   
@@ -260,6 +261,11 @@ section {
     
   }
   
+  .product h1 {
+      font-family: 'Mate SC';
+      font-weight: 650;
+      letter-spacing: 17px;
+  }
 
   .product_main{
     width: 100%; 
@@ -271,24 +277,20 @@ section {
 
 .sport_product {
     padding: 40px 20px;
-    background: #fff;
     text-align: center;
 
 }
 
 .sport_product img {
     width: 50%;
-    height: auto
-}
-
-.lamer1 {
-    width: 100% !important  ;
+    background: #fff;
     height: auto;
 }
 
 .class {
     width: 30% !important;
 }
+
 
   /*--------------------------------------------------------------
 # Footer
@@ -429,47 +431,3 @@ section {
   
 
 
-/*--------------------------------------------------------------
-# Values
---------------------------------------------------------------*/
-.values .box {
-  padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
-  text-align: center;
-  transition: 0.3s;
-  height: 100%;
-}
-
-.values .box img {
-  padding: 30px 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
-}
-
-.values .box h3 {
-  font-size: 24px;
-  color: #ea0429;
-  font-weight: 700;
-  margin-bottom: 18px;
-  font-family: 'Source Serif Pro', serif;
-}
-
-.values .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.values .box:hover img {
-  transform: scale(1);
-}
-
-.values h1 {
-  color: black !important;
-  font-family: 'Mate SC', serif !important;
-  letter-spacing: 10px;
-}
-
-.values img {
-  width: 200px;
-  height: auto;
-  border-radius: 25px !important;
-}

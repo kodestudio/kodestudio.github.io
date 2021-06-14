@@ -19,6 +19,7 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -29,6 +30,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
 
 
 </head>
@@ -41,22 +44,26 @@
           <div class="navbar-header">
             <a class="navbar-brand" href="#">KAKA'S CORNER</a>
           </div>
-          <ul class="nav navbar-nav navbar-left">
-            <li class="active"><a href="#">HOMEPAGE</a></li>
-            <li><a href="#">ALL PRODUCTS</a></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="bi bi-list-nested"></i></span>/
+          </button>
+          <ul class="nav navbar-nav navbar-left collapse navbar-collapse" id="navbarSupportedContent">
+            <li class="active"><a href="index2.html">HOMEPAGE</a></li>
+            <li><a href="product.html">ALL PRODUCTS</a></li>
             <li><a href="#">CONTACT US</a></li>
             <li><a href="#">HELP & SUPPORT</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="navbarSupportedContent">
             <li><a href="#"><i class="bi bi-facebook"></i></a></li>
             <li><a href="#"><i class="bi bi-instagram"></i></a></li>
             <li><a href="#"><i class="bi bi-github"></i></a></li>
-            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="#" style="margin-right: 10px"><i class="bi bi-youtube"></i></a></li>
           </ul>
         </div>
       </nav>
-    
-      <!-- HEADER -->
+
+
+      <!-- JBT -->
     <div class="jumbotron jumbotron-fluid custom1 hero d-flex align-items-center">
         <div class="container">
             <div class="row">
@@ -72,12 +79,14 @@
         </div>
     </div>
 
+    
+
     <!-- BESTSELLERS -->
     <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
             <div class="row gx-0">
 
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <div class="content">
                         <h1>Our bestsellers</h1>
                         <p>
@@ -88,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                <div class="col-lg-6 d-flex align-items-center">
                     <img src="assets/img/about.png" class="img-fluid" alt="">
                 </div>
 
@@ -97,7 +106,8 @@
 
     </section>
 
-    <div class="product_main section ">
+<section>
+        <div class="product_main section ">
         <div class="container">
           <div class="row">
              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -151,7 +161,63 @@
          </div>
     </div>
     
+</section>
+        <!-- Testimonials -->
+<section id="values" class="values">
 
+    <div class="container">
+
+      <header class="section-header">
+        <h1>What do our customers say about us?</h1>
+        </header>
+
+      <div class="row">
+
+        <div class="col-lg-3">
+          <div class="box">
+            <img src="assets/img/value1.jpg" class="img-fluid" alt="">
+            <h3>Nguyễn Đại Dương</h3>
+            <p>In short, this shop is very great in every aspects.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3 mt-lg-0">
+          <div class="box">
+            <img src="assets/img/value2.jpg" class="img-fluid" alt="">
+            <h3>Võ Thị Mai Hiền</h3>
+            <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-3 mt-lg-0">
+          <div class="box">
+            <img src="assets/img/value3.jpg" class="img-fluid" alt="">
+            <h3>Fugit cupiditate alias nobis.</h3>
+            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 mt-3 mt-lg-0">
+            <div class="box">
+              <img src="assets/img/value3.jpg" class="img-fluid" alt="">
+              <h3>Fugit cupiditate alias nobis.</h3>
+              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+            </div>
+          </div>
+  
+
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- End Testimonials Section -->
+
+
+
+<!-- FOOTER -->
     <div class="footer-top">
         <div class="container">
             <div class="row gy-4">
