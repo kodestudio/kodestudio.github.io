@@ -116,9 +116,6 @@ section {
     float: right;
     display: inline-block;
 }
-.navbar ul li a {
-    display: none;
-}
 
 
 }
