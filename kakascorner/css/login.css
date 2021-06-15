@@ -91,13 +91,13 @@ html, body{
     font-size: 17px;
 }
 .form .submit:hover{
-    background-color: #1a9dc9;
+    background-color: #ea0429;
 }
 .form .input-box{
     margin-top: 40px;
 }
 .form .togglebtn {
-    color: cornflowerblue;
+    color: #ea0429;
     background-color: transparent;
     border: none;
     outline: none;
