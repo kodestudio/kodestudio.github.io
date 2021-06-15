@@ -38,30 +38,32 @@
         <div class="layer">
             <div class="form">
                 <div class="login-form">
-                    <!-- Load Facebook SDK for JavaScript -->
+                    <!-- Messenger Chat Plugin Code -->
                     <div id="fb-root"></div>
+
+                    <!-- Your Chat Plugin code -->
+                    <div id="fb-customer-chat" class="fb-customerchat">
+                    </div>
+
                     <script>
+                        var chatbox = document.getElementById('fb-customer-chat');
+                        chatbox.setAttribute("page_id", "101239725542094");
+                        chatbox.setAttribute("attribution", "biz_inbox");
                         window.fbAsyncInit = function () {
                             FB.init({
                                 xfbml: true,
-                                version: 'v10.0'
+                                version: 'v11.0'
                             });
                         };
 
                         (function (d, s, id) {
                             var js, fjs = d.getElementsByTagName(s)[0];
                             if (d.getElementById(id)) return;
-                            js = d.createElement(s);
-                            js.id = id;
+                            js = d.createElement(s); js.id = id;
                             js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
                             fjs.parentNode.insertBefore(js, fjs);
                         }(document, 'script', 'facebook-jssdk'));
                     </script>
-
-                    <!-- Your Chat Plugin code -->
-                    <div class="fb-customerchat" attribution="setup_tool" page_id="447710355997001">
-                    </div>
-
                     <div class="heading">Welcome back!</div>
                     <div class="input-box">
                         <form action="" method="post">

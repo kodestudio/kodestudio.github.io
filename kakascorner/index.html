@@ -33,16 +33,17 @@
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MXVYLK507N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MXVYLK507N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-MXVYLK507N');
-</script>
-<script data-ad-client="ca-pub-9602711292021779" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    gtag('config', 'G-MXVYLK507N');
+  </script>
+  <script data-ad-client="ca-pub-9602711292021779" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -61,7 +62,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active" ><a href="index.html">HOME</a></li>
+          <li class="active"><a href="index.html">HOME</a></li>
           <li><a href="product.html">ALL PRODUCTS</a></li>
           <li><a href="help.html">HELP</a></li>
           <li><a href="contact.html">CONTACT US</a></li>
@@ -70,35 +71,37 @@
           <li><a href="https://fb.com"><i class="bi bi-facebook"></i></a></li>
           <li><a href="https://instagram.com"><i class="bi bi-instagram"></i></a></li>
           <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
+        </ul>
       </div>
     </div>
   </nav>
 
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v10.0'
-            });
-        };
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution="setup_tool" page_id="447710355997001">
-    </div>
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "101239725542094");
+    chatbox.setAttribute("attribution", "biz_inbox");
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v11.0'
+      });
+    };
 
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <!-- JBT -->
   <div class="jumbotron jumbotron-fluid custom1 hero d-flex align-items-center">
@@ -300,7 +303,7 @@
   </div>
   </footer>
 
-    
+
 </body>
 
 </html>
