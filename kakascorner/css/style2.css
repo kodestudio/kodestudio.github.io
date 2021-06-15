@@ -304,10 +304,13 @@ section {
 .footer {
     padding: 0 30px 30px 30px !important;
     font-size: 14px;
+    background: url(../assets/img/footer-bg.png) no-repeat right top;
+    background-size: contain;
   }
   
   
   .footer .footer-top {
+    background: url(../assets/img/footer-bg.png) no-repeat right top;
     background-size: contain;
     border-top: 1px solid #e1ecff;
     border-bottom: 1px solid #e1ecff;
@@ -494,6 +497,11 @@ section {
   color: black;
   font-family: 'Mate SC', serif;
 }
+
+
+/*--------------------------------------------------------------
+# Various things ~~~
+--------------------------------------------------------------*/
 
 
 .header2 {
