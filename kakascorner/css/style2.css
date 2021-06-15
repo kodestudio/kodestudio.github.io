@@ -1,3 +1,10 @@
+.container1 {
+  max-width: 100vw;
+  margin-left: 6.3vw;
+  margin-right: 6vw;
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -471,4 +478,47 @@ section {
   width: 200px;
   height: auto;
   border-radius: 25px !important;
+}
+
+
+/*--------------------------------------------------------------
+# Help
+--------------------------------------------------------------*/
+.help h2 {
+  color: #ea0429;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 700;
+}
+
+.help h3 {
+  color: black;
+  font-family: 'Mate SC', serif;
+}
+
+
+.header2 {
+  color: #000;
+  font-family: 'Mate SC', serif;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+
+.header3 {
+  color: #ea0429;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.add {
+  color: #000;
+  font-family: 'Nunito', sans-serif;
+  font-size: 19px;
+}
+
+.logo {
+  color: black;
+  font-family: 'Mate SC', serif;
+  font-weight: 700;
+  letter-spacing: 13px;
 }
